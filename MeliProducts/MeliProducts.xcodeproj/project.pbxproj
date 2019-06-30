@@ -77,12 +77,9 @@
 		EFAF39BF22C84C8800D0DC52 /* MeliProducts */ = {
 			isa = PBXGroup;
 			children = (
-				EFAF39C022C84C8800D0DC52 /* AppDelegate.swift */,
-				EFAF39C222C84C8800D0DC52 /* ViewController.swift */,
-				EFAF39C422C84C8800D0DC52 /* Main.storyboard */,
-				EFAF39C722C84C8A00D0DC52 /* Assets.xcassets */,
-				EFAF39C922C84C8A00D0DC52 /* LaunchScreen.storyboard */,
-				EFAF39CC22C84C8A00D0DC52 /* Info.plist */,
+				EFAF39E222C84D0400D0DC52 /* ProductDetail */,
+				EFAF39E122C84CFD00D0DC52 /* ProductList */,
+				EFAF39E022C84CF300D0DC52 /* App */,
 			);
 			path = MeliProducts;
 			sourceTree = "<group>";
@@ -94,6 +91,57 @@
 				EFAF39D722C84C8A00D0DC52 /* Info.plist */,
 			);
 			path = MeliProductsTests;
+			sourceTree = "<group>";
+		};
+		EFAF39E022C84CF300D0DC52 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF39C722C84C8A00D0DC52 /* Assets.xcassets */,
+				EFAF39C022C84C8800D0DC52 /* AppDelegate.swift */,
+				EFAF39C922C84C8A00D0DC52 /* LaunchScreen.storyboard */,
+				EFAF39CC22C84C8A00D0DC52 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EFAF39E122C84CFD00D0DC52 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF39E322C84D0F00D0DC52 /* Controllers */,
+				EFAF39E522C84D3000D0DC52 /* ViewModel */,
+				EFAF39E422C84D1600D0DC52 /* View */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		EFAF39E222C84D0400D0DC52 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		EFAF39E322C84D0F00D0DC52 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF39C222C84C8800D0DC52 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EFAF39E422C84D1600D0DC52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF39C422C84C8800D0DC52 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFAF39E522C84D3000D0DC52 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H92U9K5JQ;
-				INFOPLIST_FILE = MeliProducts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MeliProducts/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H92U9K5JQ;
-				INFOPLIST_FILE = MeliProducts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MeliProducts/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
