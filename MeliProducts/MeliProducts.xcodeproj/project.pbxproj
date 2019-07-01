@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		5386F0E619A723EFF199BB26 /* Pods_MeliProductsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DB3318A41BE45BC6A8152F /* Pods_MeliProductsTests.framework */; };
 		DBAC6EC05B4FF379DEFF9BE6 /* Pods_MeliProducts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98769A6A324F76F54A7B6502 /* Pods_MeliProducts.framework */; };
+		EF28CC1D22C8A1B200BBBCBA /* EnvironmentSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28CC1C22C8A1B200BBBCBA /* EnvironmentSetting.swift */; };
+		EF28CC2122C8AE3100BBBCBA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28CC2022C8AE3100BBBCBA /* Product.swift */; };
+		EF39BFCB22C8D19200BE9F2D /* ProductServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BFCA22C8D19200BE9F2D /* ProductServiceMock.swift */; };
+		EF39BFCD22C8D1D400BE9F2D /* ProductServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BFCC22C8D1D400BE9F2D /* ProductServiceProtocol.swift */; };
+		EF39BFCF22C94A8800BE9F2D /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BFCE22C94A8800BE9F2D /* ProductList.swift */; };
+		EF9CC82E22C883FF0012D810 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CC82D22C883FF0012D810 /* ApiClient.swift */; };
+		EF9CC83422C88D7A0012D810 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CC83322C88D7A0012D810 /* Router.swift */; };
+		EF9CC83622C88D8E0012D810 /* ProductRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CC83522C88D8E0012D810 /* ProductRouter.swift */; };
+		EF9CC83822C88DA40012D810 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CC83722C88DA40012D810 /* ProductService.swift */; };
 		EFAF39C122C84C8800D0DC52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF39C022C84C8800D0DC52 /* AppDelegate.swift */; };
 		EFAF39C322C84C8800D0DC52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF39C222C84C8800D0DC52 /* ViewController.swift */; };
 		EFAF39C622C84C8800D0DC52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAF39C422C84C8800D0DC52 /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 		98769A6A324F76F54A7B6502 /* Pods_MeliProducts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliProducts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CF499E3FFF61A658F7E9B5 /* Pods-MeliProductsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliProductsTests.debug.xcconfig"; path = "Target Support Files/Pods-MeliProductsTests/Pods-MeliProductsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4DB3318A41BE45BC6A8152F /* Pods_MeliProductsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliProductsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF28CC1C22C8A1B200BBBCBA /* EnvironmentSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentSetting.swift; sourceTree = "<group>"; };
+		EF28CC2022C8AE3100BBBCBA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EF39BFCA22C8D19200BE9F2D /* ProductServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceMock.swift; sourceTree = "<group>"; };
+		EF39BFCC22C8D1D400BE9F2D /* ProductServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceProtocol.swift; sourceTree = "<group>"; };
+		EF39BFCE22C94A8800BE9F2D /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		EF9CC82D22C883FF0012D810 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		EF9CC83322C88D7A0012D810 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EF9CC83522C88D8E0012D810 /* ProductRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRouter.swift; sourceTree = "<group>"; };
+		EF9CC83722C88DA40012D810 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		EFAF39BD22C84C8800D0DC52 /* MeliProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeliProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAF39C022C84C8800D0DC52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAF39C222C84C8800D0DC52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +104,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EF28CC1F22C8AE2200BBBCBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF28CC2022C8AE3100BBBCBA /* Product.swift */,
+				EF39BFCE22C94A8800BE9F2D /* ProductList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF39BFC922C8D08A00BE9F2D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EF39BFCA22C8D19200BE9F2D /* ProductServiceMock.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EF9CC82A22C8825D0012D810 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4859222C97A4F00267804 /* Product */,
+				EF9CC82D22C883FF0012D810 /* ApiClient.swift */,
+				EF9CC83322C88D7A0012D810 /* Router.swift */,
+				EF28CC1C22C8A1B200BBBCBA /* EnvironmentSetting.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EFA4859222C97A4F00267804 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				EF9CC83722C88DA40012D810 /* ProductService.swift */,
+				EF9CC83522C88D8E0012D810 /* ProductRouter.swift */,
+				EF39BFCC22C8D1D400BE9F2D /* ProductServiceProtocol.swift */,
+				EF28CC1F22C8AE2200BBBCBA /* Model */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 		EFAF39B422C84C8800D0DC52 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +166,7 @@
 		EFAF39BF22C84C8800D0DC52 /* MeliProducts */ = {
 			isa = PBXGroup;
 			children = (
+				EF9CC82A22C8825D0012D810 /* Service */,
 				EFAF39E222C84D0400D0DC52 /* ProductDetail */,
 				EFAF39E122C84CFD00D0DC52 /* ProductList */,
 				EFAF39E022C84CF300D0DC52 /* App */,
@@ -119,6 +177,7 @@
 		EFAF39D422C84C8A00D0DC52 /* MeliProductsTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF39BFC922C8D08A00BE9F2D /* Service */,
 				EFAF39D522C84C8A00D0DC52 /* MeliProductsTests.swift */,
 				EFAF39D722C84C8A00D0DC52 /* Info.plist */,
 			);
@@ -362,8 +421,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9CC83822C88DA40012D810 /* ProductService.swift in Sources */,
+				EF39BFCF22C94A8800BE9F2D /* ProductList.swift in Sources */,
+				EF28CC2122C8AE3100BBBCBA /* Product.swift in Sources */,
 				EFAF39C322C84C8800D0DC52 /* ViewController.swift in Sources */,
 				EFAF39C122C84C8800D0DC52 /* AppDelegate.swift in Sources */,
+				EF9CC83422C88D7A0012D810 /* Router.swift in Sources */,
+				EF9CC83622C88D8E0012D810 /* ProductRouter.swift in Sources */,
+				EF39BFCD22C8D1D400BE9F2D /* ProductServiceProtocol.swift in Sources */,
+				EF28CC1D22C8A1B200BBBCBA /* EnvironmentSetting.swift in Sources */,
+				EF9CC82E22C883FF0012D810 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFAF39D622C84C8A00D0DC52 /* MeliProductsTests.swift in Sources */,
+				EF39BFCB22C8D19200BE9F2D /* ProductServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +473,209 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EF9CC83922C89C840012D810 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BASE_URL = "https://api.mercadolibre.com/";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Develop;
+		};
+		EF9CC83A22C89C840012D810 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BCF3CF3483590B68981CCB /* Pods-MeliProducts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H92U9K5JQ;
+				INFOPLIST_FILE = "$(SRCROOT)/MeliProducts/App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.matheusfeola.MeliProducts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Develop;
+		};
+		EF9CC83B22C89C840012D810 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CF499E3FFF61A658F7E9B5 /* Pods-MeliProductsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H92U9K5JQ;
+				INFOPLIST_FILE = MeliProductsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.matheusfeola.MeliProductsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeliProducts.app/MeliProducts";
+			};
+			name = Develop;
+		};
+		EF9CC83C22C89C960012D810 /* Deploy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BASE_URL = "https://api.mercadolibre.com/";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Deploy;
+		};
+		EF9CC83D22C89C960012D810 /* Deploy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FA58174BB509144F0C51D7 /* Pods-MeliProducts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H92U9K5JQ;
+				INFOPLIST_FILE = "$(SRCROOT)/MeliProducts/App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.matheusfeola.MeliProducts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Deploy;
+		};
+		EF9CC83E22C89C960012D810 /* Deploy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9510264ACB4909D722120565 /* Pods-MeliProductsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H92U9K5JQ;
+				INFOPLIST_FILE = MeliProductsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.matheusfeola.MeliProductsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeliProducts.app/MeliProducts";
+			};
+			name = Deploy;
+		};
 		EFAF39D822C84C8A00D0DC52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BASE_URL = "https://api.mercadolibre.com/";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -470,6 +737,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BASE_URL = "https://api.mercadolibre.com/";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -608,7 +876,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFAF39D822C84C8A00D0DC52 /* Debug */,
+				EF9CC83922C89C840012D810 /* Develop */,
 				EFAF39D922C84C8A00D0DC52 /* Release */,
+				EF9CC83C22C89C960012D810 /* Deploy */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -617,7 +887,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFAF39DB22C84C8A00D0DC52 /* Debug */,
+				EF9CC83A22C89C840012D810 /* Develop */,
 				EFAF39DC22C84C8A00D0DC52 /* Release */,
+				EF9CC83D22C89C960012D810 /* Deploy */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -626,7 +898,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFAF39DE22C84C8A00D0DC52 /* Debug */,
+				EF9CC83B22C89C840012D810 /* Develop */,
 				EFAF39DF22C84C8A00D0DC52 /* Release */,
+				EF9CC83E22C89C960012D810 /* Deploy */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
