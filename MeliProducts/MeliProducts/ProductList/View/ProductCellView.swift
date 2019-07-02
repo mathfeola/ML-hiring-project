@@ -44,7 +44,7 @@ class ProductCellView: UITableViewCell {
     
     private func updateView() {
         if let product = product {
-            productImage.kf.setImage(with: product.imageResource, options: [.transition(.fade(0.2))])
+            productImage.kf.setImage(with: product.thumbnail, options: [.transition(.fade(0.2))])
             
             title.text = product.title
             price.text = "$ \(String(product.price))"
