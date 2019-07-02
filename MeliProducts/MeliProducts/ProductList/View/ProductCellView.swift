@@ -7,17 +7,21 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ProductCellView: UITableViewCell {
     static let identifier = "productCellView"
     
+    var containerView: UIView
     var productImage: UIImageView
     var title: UILabel
+    var price: UILabel
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        containerView = UIView()
         title = UILabel()
         productImage = UIImageView()
-        
+        price = UILabel()
         super.init(style: UITableViewCell.CellStyle.default, reuseIdentifier: ProductCellView.identifier)
         setupView()
     }
@@ -39,39 +43,58 @@ class ProductCellView: UITableViewCell {
     // MARK: Private Methods
     
     private func updateView() {
-        title.text = product?.title
-        
         if let product = product {
+            productImage.kf.setImage(with: product.imageResource, options: [.transition(.fade(0.2))])
             
+            title.text = product.title
+            price.text = "$ \(String(product.price))"
         }
     }
 }
 
 extension ProductCellView: ViewCodable {
-
+    
     func buildHierarchy() {
-        addSubview(productImage)
-        addSubview(title)
+        containerView.addSubview(productImage)
+        containerView.addSubview(title)
+        containerView.addSubview(price)
+        addSubview(containerView)
     }
     
     func buildConstraints() {
         
+        containerView.snp.makeConstraints { container in
+            container.top.equalTo(self.snp.top).offset(5)
+            container.left.equalTo(self.snp.left).offset(5)
+            container.right.equalTo(self.snp.right).offset(-5)
+            container.bottom.equalTo(self.snp.bottom).offset(-5)
+        }
+        
         productImage.snp.makeConstraints { image in
-            image.top.equalTo(self.snp.top)
-            image.left.equalTo(self.snp.left)
-            image.height.equalTo(10)
-            image.width.equalTo(10)
+            image.top.equalTo(containerView.snp.top).offset(12)
+            image.left.equalTo(containerView.snp.left).offset(12)
+            image.bottom.equalTo(containerView.snp.bottom).offset(-12)
+            image.height.equalTo(90)
+            image.width.equalTo(90)
         }
         
         title.snp.makeConstraints { title in
             title.top.equalTo(productImage.snp.top)
             title.left.equalTo(productImage.snp.right).offset(10)
+            title.right.equalTo(containerView.snp.right).offset(-12)
         }
         
-        //img size = 90 x 90
+        price.snp.makeConstraints { price in
+            price.top.equalTo(title.snp.bottom).offset(8)
+            price.left.equalTo(title.snp.left)
+            price.right.equalTo(title.snp.right)
+        }
     }
     
     func configure() {
-        title.textColor = UIColor.blue
+        title.textColor = UIColor.black
+        title.numberOfLines = 2
+        title.font = UIFont.boldSystemFont(ofSize: 14)
+        price.textColor = UIColor.AppColors.mainGreen
     }
 }

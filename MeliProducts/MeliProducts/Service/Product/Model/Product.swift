@@ -8,8 +8,16 @@
 
 import Foundation
 
-struct Product: Codable {
+class Product: Codable {
     var id: String
     var title: String
     var price: Double
+    var imageResource: URL
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case title
+        case price
+        case imageResource = "thumbnail"
+    }
 }

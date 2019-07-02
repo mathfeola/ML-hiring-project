@@ -22,18 +22,18 @@
 		EF9CC83822C88DA40012D810 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CC83722C88DA40012D810 /* ProductService.swift */; };
 		EFA4859422C9979E00267804 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4859322C9979E00267804 /* ProductListView.swift */; };
 		EFA4859622C997AC00267804 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4859522C997AC00267804 /* ProductListViewModel.swift */; };
-		EFA4859922C998DF00267804 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4859822C998DF00267804 /* ViewCodable.swift */; };
 		EFA4859B22C99F7100267804 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4859A22C99F7100267804 /* ProductCellView.swift */; };
 		EFA4859D22C9ABD500267804 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4859C22C9ABD500267804 /* ProductDetailViewController.swift */; };
 		EFA4859F22C9ABDF00267804 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4859E22C9ABDF00267804 /* ProductDetailViewModel.swift */; };
 		EFA485A122C9ABE600267804 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA485A022C9ABE600267804 /* ProductDetailView.swift */; };
 		EFA485A322C9AC2F00267804 /* ProductListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA485A222C9AC2F00267804 /* ProductListAdapter.swift */; };
-		EFA485A522C9AC3900267804 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA485A422C9AC3900267804 /* Adapter.swift */; };
 		EFAF39C122C84C8800D0DC52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF39C022C84C8800D0DC52 /* AppDelegate.swift */; };
 		EFAF39C322C84C8800D0DC52 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF39C222C84C8800D0DC52 /* ProductListViewController.swift */; };
 		EFAF39C822C84C8A00D0DC52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAF39C722C84C8A00D0DC52 /* Assets.xcassets */; };
 		EFAF39CB22C84C8A00D0DC52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAF39C922C84C8A00D0DC52 /* LaunchScreen.storyboard */; };
 		EFAF39D622C84C8A00D0DC52 /* MeliProductsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF39D522C84C8A00D0DC52 /* MeliProductsTests.swift */; };
+		EFD9E8CD22CC11650065DF12 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */; };
+		EFD9E8D222CC14020065DF12 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9E8D122CC14020065DF12 /* ViewCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,13 +70,11 @@
 		EF9CC83722C88DA40012D810 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		EFA4859322C9979E00267804 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		EFA4859522C997AC00267804 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
-		EFA4859822C998DF00267804 /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
 		EFA4859A22C99F7100267804 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
 		EFA4859C22C9ABD500267804 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		EFA4859E22C9ABDF00267804 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
 		EFA485A022C9ABE600267804 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		EFA485A222C9AC2F00267804 /* ProductListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListAdapter.swift; sourceTree = "<group>"; };
-		EFA485A422C9AC3900267804 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		EFAF39BD22C84C8800D0DC52 /* MeliProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeliProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAF39C022C84C8800D0DC52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAF39C222C84C8800D0DC52 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +84,8 @@
 		EFAF39D122C84C8A00D0DC52 /* MeliProductsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeliProductsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAF39D522C84C8A00D0DC52 /* MeliProductsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeliProductsTests.swift; sourceTree = "<group>"; };
 		EFAF39D722C84C8A00D0DC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
+		EFD9E8D122CC14020065DF12 /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +227,7 @@
 		EFAF39BF22C84C8800D0DC52 /* MeliProducts */ = {
 			isa = PBXGroup;
 			children = (
+				EFD9E8CE22CC13900065DF12 /* View */,
 				EF5A0D5222CADAA2004BF9E3 /* Coordinator */,
 				EFAF39E022C84CF300D0DC52 /* App */,
 				EF9CC82A22C8825D0012D810 /* Service */,
@@ -289,10 +290,8 @@
 			isa = PBXGroup;
 			children = (
 				EFA4859322C9979E00267804 /* ProductListView.swift */,
-				EFA4859822C998DF00267804 /* ViewCodable.swift */,
 				EFA4859A22C99F7100267804 /* ProductCellView.swift */,
 				EFA485A222C9AC2F00267804 /* ProductListAdapter.swift */,
-				EFA485A422C9AC3900267804 /* Adapter.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +302,15 @@
 				EFA4859522C997AC00267804 /* ProductListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFD9E8CE22CC13900065DF12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFD9E8D122CC14020065DF12 /* ViewCodable.swift */,
+				EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -491,18 +499,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA4859B22C99F7100267804 /* ProductCellView.swift in Sources */,
+				EFD9E8D222CC14020065DF12 /* ViewCodable.swift in Sources */,
 				EFA4859422C9979E00267804 /* ProductListView.swift in Sources */,
 				EFA4859D22C9ABD500267804 /* ProductDetailViewController.swift in Sources */,
 				EFA485A122C9ABE600267804 /* ProductDetailView.swift in Sources */,
 				EF9CC83822C88DA40012D810 /* ProductService.swift in Sources */,
+				EFD9E8CD22CC11650065DF12 /* UIColor+AppColors.swift in Sources */,
 				EFA485A322C9AC2F00267804 /* ProductListAdapter.swift in Sources */,
 				EF5A0D5622CADB1B004BF9E3 /* AppCoordinator.swift in Sources */,
 				EFA4859622C997AC00267804 /* ProductListViewModel.swift in Sources */,
 				EF39BFCF22C94A8800BE9F2D /* ProductList.swift in Sources */,
 				EF28CC2122C8AE3100BBBCBA /* Product.swift in Sources */,
 				EFA4859F22C9ABDF00267804 /* ProductDetailViewModel.swift in Sources */,
-				EFA4859922C998DF00267804 /* ViewCodable.swift in Sources */,
-				EFA485A522C9AC3900267804 /* Adapter.swift in Sources */,
 				EF5A0D5422CADB0A004BF9E3 /* Coordinator.swift in Sources */,
 				EFAF39C322C84C8800D0DC52 /* ProductListViewController.swift in Sources */,
 				EFAF39C122C84C8800D0DC52 /* AppDelegate.swift in Sources */,
