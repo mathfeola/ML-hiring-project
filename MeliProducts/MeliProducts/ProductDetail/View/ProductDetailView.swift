@@ -34,7 +34,9 @@ class ProductDetailView: UIView {
 
     private func updateView() {
         if let viewModel = viewModel {
-            image.kf.setImage(with: viewModel.product.imageResource, options: [.transition(.fade(0.2))])
+            if let picture = viewModel.product.pictures {
+                image.kf.setImage(with: picture[0].secure_url)
+            }
         }
     }
 }
@@ -58,8 +60,8 @@ extension ProductDetailView: ViewCodable {
             image.top.equalTo(contentView.snp.top).offset(12)
             image.left.equalTo(contentView.snp.left).offset(12)
             image.right.equalTo(contentView.snp.right).offset(-12)
-            image.width.equalTo(500)
-            image.height.equalTo(320)
+            image.width.equalTo(250)
+            image.height.equalTo(180)
         }    
     }
     func configure() {
