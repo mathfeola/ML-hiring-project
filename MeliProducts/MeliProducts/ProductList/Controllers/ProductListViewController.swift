@@ -41,6 +41,24 @@ class ProductListViewController: UIViewController {
         service.search("TV") { productList in
             self.productListView.viewModel = ProductListViewModel(list: productList)
         }
+        setBarStyle()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.view.setNeedsLayout()
+        navigationController?.view.layoutIfNeeded()
+    }
+    
+    // MARK: Private Methods
+    
+    private func setBarStyle() {
+        extendedLayoutIncludesOpaqueBars = true
+        if let navBar = navigationController?.navigationBar {
+            navBar.isTranslucent = false
+            navBar.barTintColor = UIColor.AppColors.mainYellow
+            navigationItem.titleView = productListView.searchBar
+        }
     }
 }
 
