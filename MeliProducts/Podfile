@@ -7,6 +7,7 @@ target 'MeliProducts' do
 
   pod 'Alamofire', '~> 4.8.0'
   pod 'SnapKit', '~> 5.0.0'
+  pod 'Kingfisher', '~> 5.0'
 
   target 'MeliProductsTests' do
     inherit! :search_paths
