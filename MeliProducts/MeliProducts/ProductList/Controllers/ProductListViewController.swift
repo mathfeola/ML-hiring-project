@@ -8,10 +8,15 @@
 
 import UIKit
 
+protocol ProductListViewControllerDelegate: class {
+    func didSelectProduct(_ product: Product)
+}
+
 class ProductListViewController: UIViewController {
     
     private let service: ProductServiceProtocol
     private var productListView: ProductListView
+    var delegate: ProductListViewControllerDelegate?
     
     init(service: ProductServiceProtocol = ProductService()) {
         self.service = service
@@ -27,18 +32,28 @@ class ProductListViewController: UIViewController {
     
     override func loadView() {
         self.view = productListView
+        productListView.delegate = self
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        service.productDetail(productId: "MLU445069856") { product in
-//
-//            print("I'm selling a: \(product.title)")
-//
-//        }
-        
         service.search("TV") { productList in
+            self.productListView.viewModel = ProductListViewModel(list: productList)
+        }
+    }
+}
+
+extension ProductListViewController: ProductListDelegate {
+    
+    func didSelectedProduct(_ productId: String) {
+        service.productDetail(productId: productId) { [weak self] product in
+            self?.delegate?.didSelectProduct(product)
+        }
+    }
+    
+    func didSearchedProduct(_ searchTerm: String) {
+        service.search(searchTerm) { productList in
             self.productListView.viewModel = ProductListViewModel(list: productList)
         }
     }
