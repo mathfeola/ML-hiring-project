@@ -10,10 +10,10 @@ import UIKit
 
 class ProductDetailViewController: UIViewController {
     
-    let product: Product
+        let productViewModel: ProductDetailViewModelProtocol
     
     init(product: Product) {
-        self.product = product
+        self.productViewModel = ProductDetailViewModel(product)
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -21,8 +21,9 @@ class ProductDetailViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewDidLoad() {
-        view.backgroundColor = UIColor.green
-        print("Selected product: \(product.id)")
-    }
+        override func loadView() {
+            let productDetailView = ProductDetailView()
+            productDetailView.viewModel = productViewModel
+            view = productDetailView
+        }
 }
