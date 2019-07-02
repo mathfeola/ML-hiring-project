@@ -12,12 +12,24 @@ class Product: Codable {
     var id: String
     var title: String
     var price: Double
+    var pictures: [Picture]?
     var imageResource: URL
     
     enum CodingKeys: String, CodingKey {
         case id
         case title
         case price
+        case pictures
         case imageResource = "thumbnail"
     }
+    
+        required init(from decoder: Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+    
+            self.id = try container.decode(String.self, forKey: .id)
+            self.pictures = try container.decodeIfPresent([Picture].self, forKey: .pictures)
+            self.title = try container.decode(String.self, forKey: .title)
+             self.price = try container.decode(Double.self, forKey: .price)
+            self.imageResource = try container.decode(URL.self, forKey: .imageResource)
+        }
 }

@@ -34,6 +34,7 @@
 		EFAF39D622C84C8A00D0DC52 /* MeliProductsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF39D522C84C8A00D0DC52 /* MeliProductsTests.swift */; };
 		EFD9E8CD22CC11650065DF12 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */; };
 		EFD9E8D222CC14020065DF12 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9E8D122CC14020065DF12 /* ViewCodable.swift */; };
+		EFDC808F22CC1DAC00463583 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC808E22CC1DAC00463583 /* Picture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		EFAF39D722C84C8A00D0DC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
 		EFD9E8D122CC14020065DF12 /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
+		EFDC808E22CC1DAC00463583 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				EF28CC2022C8AE3100BBBCBA /* Product.swift */,
 				EF39BFCE22C94A8800BE9F2D /* ProductList.swift */,
+				EFDC808E22CC1DAC00463583 /* Picture.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				EF28CC2122C8AE3100BBBCBA /* Product.swift in Sources */,
 				EFA4859F22C9ABDF00267804 /* ProductDetailViewModel.swift in Sources */,
 				EF5A0D5422CADB0A004BF9E3 /* Coordinator.swift in Sources */,
+				EFDC808F22CC1DAC00463583 /* Picture.swift in Sources */,
 				EFAF39C322C84C8800D0DC52 /* ProductListViewController.swift in Sources */,
 				EFAF39C122C84C8800D0DC52 /* AppDelegate.swift in Sources */,
 				EF9CC83422C88D7A0012D810 /* Router.swift in Sources */,
