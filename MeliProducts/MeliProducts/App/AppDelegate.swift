@@ -15,12 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        
-        self.window?.rootViewController = ProductListViewController()
-        
-        self.window?.makeKeyAndVisible()
-        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        self.window = window
+        let coordinator = AppCoordinator(window: window)
+        coordinator.start()
         return true
     }
 }
