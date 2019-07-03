@@ -10,7 +10,7 @@ import UIKit
 
 class ProductDetailViewController: UIViewController {
     
-        let productViewModel: ProductDetailViewModelProtocol
+    let productViewModel: ProductDetailViewModelProtocol
     
     init(product: Product) {
         self.productViewModel = ProductDetailViewModel(product)
@@ -21,9 +21,9 @@ class ProductDetailViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-        override func loadView() {
-            let productDetailView = ProductDetailView()
-            productDetailView.viewModel = productViewModel
-            view = productDetailView
-        }
+    override func loadView() {
+        let productDetailView = ProductDetailView()
+        productDetailView.viewModel = productViewModel
+        view = productDetailView
+    }
 }

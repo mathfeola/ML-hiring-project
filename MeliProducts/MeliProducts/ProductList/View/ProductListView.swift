@@ -62,7 +62,7 @@ extension ProductListView: ViewCodable {
             contentView.right.equalTo(self)
             contentView.bottom.equalTo(self)
         }
-
+        
         tableView.snp.makeConstraints { tableView in
             tableView.top.equalTo(contentView.snp.top)
             tableView.left.equalTo(contentView.snp.left)

@@ -23,13 +23,13 @@ class Product: Codable {
         case thumbnail
     }
     
-        required init(from decoder: Decoder) throws {
-            let container = try decoder.container(keyedBy: CodingKeys.self)
-    
-            self.id = try container.decode(String.self, forKey: .id)
-            self.pictures = try container.decodeIfPresent([Picture].self, forKey: .pictures)
-            self.title = try container.decode(String.self, forKey: .title)
-             self.price = try container.decode(Double.self, forKey: .price)
-            self.thumbnail = try container.decode(URL.self, forKey: .thumbnail)
-        }
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        
+        self.id = try container.decode(String.self, forKey: .id)
+        self.pictures = try container.decodeIfPresent([Picture].self, forKey: .pictures)
+        self.title = try container.decode(String.self, forKey: .title)
+        self.price = try container.decode(Double.self, forKey: .price)
+        self.thumbnail = try container.decode(URL.self, forKey: .thumbnail)
+    }
 }
