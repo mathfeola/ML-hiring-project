@@ -74,7 +74,6 @@ extension ProductCellView: ViewCodable {
             image.top.equalTo(containerView.snp.top).offset(12)
             image.left.equalTo(containerView.snp.left).offset(12)
             image.bottom.equalTo(containerView.snp.bottom).offset(-12)
-            image.height.equalTo(90)
             image.width.equalTo(90)
         }
         
