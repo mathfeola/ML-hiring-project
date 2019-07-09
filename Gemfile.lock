@@ -213,6 +213,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0)
   cocoapods (~> 1.7)
+  fastlane (~> 2.0)
   xcov (~> 1.5)
 
 RUBY VERSION
