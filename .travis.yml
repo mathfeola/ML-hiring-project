@@ -4,7 +4,7 @@ xcode_project: MeliProducts/MeliProducts.xcodeproj
 xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
 xcode_scheme: MeliProductsTests
 podfile: MeliProducts/Podfile
-
+install: gem install bundler
 #script:
  # - xcodebuild -scheme MeliProducts -workspace MeliProducts/MeliProducts.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=9.1' build test
 after_success:
