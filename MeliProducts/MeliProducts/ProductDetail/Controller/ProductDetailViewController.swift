@@ -24,6 +24,26 @@ class ProductDetailViewController: UIViewController {
     override func loadView() {
         let productDetailView = ProductDetailView()
         productDetailView.viewModel = productViewModel
+        productDetailView.delegate = self
         view = productDetailView
+    }
+}
+
+extension ProductDetailViewController: ProductDetailViewDelegate {
+    func didPressShareButton() {
+        if let link = URL(string: productViewModel.product.permalink) {
+            
+            let shareObjects: [Any] = [link]
+            
+            let activityViewController = UIActivityViewController(activityItems: shareObjects, applicationActivities: nil)
+             activityViewController.popoverPresentationController?.sourceView = self.view
+            present(activityViewController, animated: true, completion: nil)
+        }
+    }
+    
+    func didPressBuyButton() {
+        if let link = URL(string: productViewModel.product.permalink) {
+            UIApplication.shared.open(link)
+        }
     }
 }

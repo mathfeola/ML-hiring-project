@@ -11,6 +11,8 @@
 		DBAC6EC05B4FF379DEFF9BE6 /* Pods_MeliProducts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98769A6A324F76F54A7B6502 /* Pods_MeliProducts.framework */; };
 		EF28CC1D22C8A1B200BBBCBA /* EnvironmentSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28CC1C22C8A1B200BBBCBA /* EnvironmentSetting.swift */; };
 		EF28CC2122C8AE3100BBBCBA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28CC2022C8AE3100BBBCBA /* Product.swift */; };
+		EF2AF68922D11C320071B00F /* ProductListViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2AF68822D11C320071B00F /* ProductListViewControllerSpec.swift */; };
+		EF2AF68C22D11D080071B00F /* ProductDetailViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2AF68B22D11D080071B00F /* ProductDetailViewControllerSpec.swift */; };
 		EF39BFCB22C8D19200BE9F2D /* ProductServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BFCA22C8D19200BE9F2D /* ProductServiceMock.swift */; };
 		EF39BFCD22C8D1D400BE9F2D /* ProductServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BFCC22C8D1D400BE9F2D /* ProductServiceProtocol.swift */; };
 		EF39BFCF22C94A8800BE9F2D /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39BFCE22C94A8800BE9F2D /* ProductList.swift */; };
@@ -32,9 +34,16 @@
 		EFAF39C822C84C8A00D0DC52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAF39C722C84C8A00D0DC52 /* Assets.xcassets */; };
 		EFAF39CB22C84C8A00D0DC52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAF39C922C84C8A00D0DC52 /* LaunchScreen.storyboard */; };
 		EFAF39D622C84C8A00D0DC52 /* MeliProductsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF39D522C84C8A00D0DC52 /* MeliProductsTests.swift */; };
+		EFB5C2D122D3BF51009183A5 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB5C2D022D3BF51009183A5 /* EmptyListView.swift */; };
 		EFD9E8CD22CC11650065DF12 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */; };
 		EFD9E8D222CC14020065DF12 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9E8D122CC14020065DF12 /* ViewCodable.swift */; };
 		EFDC808F22CC1DAC00463583 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC808E22CC1DAC00463583 /* Picture.swift */; };
+		EFDC809322CC338800463583 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC809222CC338800463583 /* User.swift */; };
+		EFDC809522CC33F200463583 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC809422CC33F200463583 /* UserRouter.swift */; };
+		EFDC809722CC34E600463583 /* UserServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC809622CC34E600463583 /* UserServiceProtocol.swift */; };
+		EFDC809922CC352D00463583 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC809822CC352D00463583 /* UserService.swift */; };
+		EFE9248322D41D9000611AF5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9248222D41D9000611AF5 /* LoadingView.swift */; };
+		EFE9248522D41E2100611AF5 /* LoadingView+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9248422D41E2100611AF5 /* LoadingView+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +69,8 @@
 		B4DB3318A41BE45BC6A8152F /* Pods_MeliProductsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliProductsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF28CC1C22C8A1B200BBBCBA /* EnvironmentSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentSetting.swift; sourceTree = "<group>"; };
 		EF28CC2022C8AE3100BBBCBA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EF2AF68822D11C320071B00F /* ProductListViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewControllerSpec.swift; sourceTree = "<group>"; };
+		EF2AF68B22D11D080071B00F /* ProductDetailViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewControllerSpec.swift; sourceTree = "<group>"; };
 		EF39BFCA22C8D19200BE9F2D /* ProductServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceMock.swift; sourceTree = "<group>"; };
 		EF39BFCC22C8D1D400BE9F2D /* ProductServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceProtocol.swift; sourceTree = "<group>"; };
 		EF39BFCE22C94A8800BE9F2D /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
@@ -85,9 +96,16 @@
 		EFAF39D122C84C8A00D0DC52 /* MeliProductsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeliProductsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAF39D522C84C8A00D0DC52 /* MeliProductsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeliProductsTests.swift; sourceTree = "<group>"; };
 		EFAF39D722C84C8A00D0DC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB5C2D022D3BF51009183A5 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 		EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
 		EFD9E8D122CC14020065DF12 /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
 		EFDC808E22CC1DAC00463583 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		EFDC809222CC338800463583 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EFDC809422CC33F200463583 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		EFDC809622CC34E600463583 /* UserServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceProtocol.swift; sourceTree = "<group>"; };
+		EFDC809822CC352D00463583 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		EFE9248222D41D9000611AF5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EFE9248422D41E2100611AF5 /* LoadingView+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingView+UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +162,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EF2AF68622D11C040071B00F /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				EF2AF68822D11C320071B00F /* ProductListViewControllerSpec.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		EF2AF68A22D11CEA0071B00F /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EF2AF68B22D11D080071B00F /* ProductDetailViewControllerSpec.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
 		EF39BFC922C8D08A00BE9F2D /* Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +222,7 @@
 		EF9CC82A22C8825D0012D810 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				EFDC809022CC336E00463583 /* User */,
 				EFA4859222C97A4F00267804 /* Product */,
 				EF9CC82D22C883FF0012D810 /* ApiClient.swift */,
 				EF9CC83322C88D7A0012D810 /* Router.swift */,
@@ -243,6 +278,8 @@
 		EFAF39D422C84C8A00D0DC52 /* MeliProductsTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF2AF68A22D11CEA0071B00F /* ProductDetail */,
+				EF2AF68622D11C040071B00F /* ProductList */,
 				EF39BFC922C8D08A00BE9F2D /* Service */,
 				EFAF39D522C84C8A00D0DC52 /* MeliProductsTests.swift */,
 				EFAF39D722C84C8A00D0DC52 /* Info.plist */,
@@ -295,6 +332,9 @@
 				EFA4859322C9979E00267804 /* ProductListView.swift */,
 				EFA4859A22C99F7100267804 /* ProductCellView.swift */,
 				EFA485A222C9AC2F00267804 /* ProductListAdapter.swift */,
+				EFB5C2D022D3BF51009183A5 /* EmptyListView.swift */,
+				EFE9248222D41D9000611AF5 /* LoadingView.swift */,
+				EFE9248422D41E2100611AF5 /* LoadingView+UIViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +354,25 @@
 				EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EFDC809022CC336E00463583 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EFDC809122CC337600463583 /* Model */,
+				EFDC809422CC33F200463583 /* UserRouter.swift */,
+				EFDC809622CC34E600463583 /* UserServiceProtocol.swift */,
+				EFDC809822CC352D00463583 /* UserService.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		EFDC809122CC337600463583 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFDC809222CC338800463583 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,13 +563,17 @@
 				EFA4859B22C99F7100267804 /* ProductCellView.swift in Sources */,
 				EFD9E8D222CC14020065DF12 /* ViewCodable.swift in Sources */,
 				EFA4859422C9979E00267804 /* ProductListView.swift in Sources */,
+				EFE9248522D41E2100611AF5 /* LoadingView+UIViewController.swift in Sources */,
 				EFA4859D22C9ABD500267804 /* ProductDetailViewController.swift in Sources */,
 				EFA485A122C9ABE600267804 /* ProductDetailView.swift in Sources */,
+				EFE9248322D41D9000611AF5 /* LoadingView.swift in Sources */,
 				EF9CC83822C88DA40012D810 /* ProductService.swift in Sources */,
+				EFDC809922CC352D00463583 /* UserService.swift in Sources */,
 				EFD9E8CD22CC11650065DF12 /* UIColor+AppColors.swift in Sources */,
 				EFA485A322C9AC2F00267804 /* ProductListAdapter.swift in Sources */,
 				EF5A0D5622CADB1B004BF9E3 /* AppCoordinator.swift in Sources */,
 				EFA4859622C997AC00267804 /* ProductListViewModel.swift in Sources */,
+				EFDC809722CC34E600463583 /* UserServiceProtocol.swift in Sources */,
 				EF39BFCF22C94A8800BE9F2D /* ProductList.swift in Sources */,
 				EF28CC2122C8AE3100BBBCBA /* Product.swift in Sources */,
 				EFA4859F22C9ABDF00267804 /* ProductDetailViewModel.swift in Sources */,
@@ -520,9 +583,12 @@
 				EFAF39C122C84C8800D0DC52 /* AppDelegate.swift in Sources */,
 				EF9CC83422C88D7A0012D810 /* Router.swift in Sources */,
 				EF9CC83622C88D8E0012D810 /* ProductRouter.swift in Sources */,
+				EFDC809522CC33F200463583 /* UserRouter.swift in Sources */,
 				EF39BFCD22C8D1D400BE9F2D /* ProductServiceProtocol.swift in Sources */,
 				EF28CC1D22C8A1B200BBBCBA /* EnvironmentSetting.swift in Sources */,
 				EF9CC82E22C883FF0012D810 /* ApiClient.swift in Sources */,
+				EFDC809322CC338800463583 /* User.swift in Sources */,
+				EFB5C2D122D3BF51009183A5 /* EmptyListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +596,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2AF68922D11C320071B00F /* ProductListViewControllerSpec.swift in Sources */,
 				EFAF39D622C84C8A00D0DC52 /* MeliProductsTests.swift in Sources */,
+				EF2AF68C22D11D080071B00F /* ProductDetailViewControllerSpec.swift in Sources */,
 				EF39BFCB22C8D19200BE9F2D /* ProductServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
