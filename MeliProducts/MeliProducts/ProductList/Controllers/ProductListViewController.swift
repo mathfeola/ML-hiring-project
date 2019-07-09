@@ -36,7 +36,6 @@ class ProductListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setBarStyle()
-        didSearchedProduct("TV")
     }
     
     override func viewWillDisappear(_ animated: Bool) {

@@ -6,21 +6,38 @@
 //  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
-import Alamofire
+import Foundation
 @testable import MeliProducts
 
 class ProductServiceMock: ProductServiceProtocol {
     
-    var error: Error?
+    private let shouldReturnError: Bool
+    var isRequestCalled: Bool = false
     
-    init(error: Error? = nil) {
-        self.error = error
+    init(shouldReturnError: Bool = false) {
+        self.shouldReturnError = shouldReturnError
     }
-    func productDetail(productId: String, then completion: @escaping (Product) -> Void) {
+    
+    func productDetail(productId: String, then completion: @escaping (Result<Product, NetworkingError>) -> Void) {
+        
+        
         
     }
     
-    func search(_ searchTerm: String, then completion: @escaping (ProductList) -> Void) {
+    func search(_ searchTerm: String, then completion: @escaping (Result<ProductList, NetworkingError>) -> Void) {
         
+        isRequestCalled = true
+        
+        if shouldReturnError {
+            
+            completion(.failure(.requestError(errorDescription: "Connection")))
+            
+        } else {
+            
+            let searchList: ProductList = Loader.fixture("TvSearch")!
+            
+            completion(.success(searchList))
+            
+        }
     }
 }
