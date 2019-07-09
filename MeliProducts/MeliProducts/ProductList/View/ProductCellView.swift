@@ -44,7 +44,11 @@ class ProductCellView: UITableViewCell {
     
     private func updateView() {
         if let product = product {
-            productImage.kf.setImage(with: product.thumbnail, options: [.transition(.fade(0.2))])
+            
+            if let imageUrl = URL(string: product.thumbnail ?? "")  {
+                
+                productImage.kf.setImage(with: imageUrl, placeholder: UIImage(named: "placeholder"), options:[.transition(.fade(0.2))])
+            }
             
             title.text = product.title
             price.text = "$ \(String(product.price))"
@@ -95,5 +99,6 @@ extension ProductCellView: ViewCodable {
         title.numberOfLines = 2
         title.font = UIFont.boldSystemFont(ofSize: 14)
         price.textColor = UIColor.AppColors.mainGreen
+        productImage.contentMode = .scaleAspectFit
     }
 }
