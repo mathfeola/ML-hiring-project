@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5386F0E619A723EFF199BB26 /* Pods_MeliProductsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DB3318A41BE45BC6A8152F /* Pods_MeliProductsTests.framework */; };
 		DBAC6EC05B4FF379DEFF9BE6 /* Pods_MeliProducts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98769A6A324F76F54A7B6502 /* Pods_MeliProducts.framework */; };
+		EF1C250522D4E65300A43FEF /* Product.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1C250422D4E61E00A43FEF /* Product.json */; };
 		EF28CC1D22C8A1B200BBBCBA /* EnvironmentSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28CC1C22C8A1B200BBBCBA /* EnvironmentSetting.swift */; };
 		EF28CC2122C8AE3100BBBCBA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28CC2022C8AE3100BBBCBA /* Product.swift */; };
 		EF2AF68922D11C320071B00F /* ProductListViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2AF68822D11C320071B00F /* ProductListViewControllerSpec.swift */; };
@@ -65,6 +66,8 @@
 		AD96AA43B4524B05E55AEA31 /* Pods-MeliProducts.deploy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliProducts.deploy.xcconfig"; path = "Target Support Files/Pods-MeliProducts/Pods-MeliProducts.deploy.xcconfig"; sourceTree = "<group>"; };
 		B3CF499E3FFF61A658F7E9B5 /* Pods-MeliProductsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliProductsTests.debug.xcconfig"; path = "Target Support Files/Pods-MeliProductsTests/Pods-MeliProductsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4DB3318A41BE45BC6A8152F /* Pods_MeliProductsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliProductsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1C250422D4E61E00A43FEF /* Product.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Product.json; sourceTree = "<group>"; };
+		EF1C250822D4EA7600A43FEF /* ProductList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProductList.json; sourceTree = "<group>"; };
 		EF28CC1C22C8A1B200BBBCBA /* EnvironmentSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentSetting.swift; sourceTree = "<group>"; };
 		EF28CC2022C8AE3100BBBCBA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		EF2AF68822D11C320071B00F /* ProductListViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewControllerSpec.swift; sourceTree = "<group>"; };
@@ -365,6 +368,8 @@
 			isa = PBXGroup;
 			children = (
 				EFE9248622D4579600611AF5 /* TvSearch.json */,
+				EF1C250422D4E61E00A43FEF /* Product.json */,
+				EF1C250822D4EA7600A43FEF /* ProductList.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -464,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFE9248B22D45CB900611AF5 /* TvSearch.json in Resources */,
+				EF1C250522D4E65300A43FEF /* Product.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

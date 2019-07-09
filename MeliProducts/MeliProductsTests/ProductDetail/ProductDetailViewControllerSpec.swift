@@ -14,17 +14,23 @@ import Nimble
 
 class ProductDetailViewControllerSpec: QuickSpec {
     
+    var sut: ProductDetailViewController!
+    
     override func spec() {
-        describe("ProductDetailViewControllerSpec") {
+        describe("ProductDetailViewController") {
             
-            context("") {
+            context("Setting initial state") {
                 
                 beforeEach {
                     
+                    let product: Product = Loader.fixture("Product")!
+                    
+                    self.sut = ProductDetailViewController(product: product)
+                    _ = self.sut.view
                 }
                 
-                it("") {
-                    
+                it("should have a view of type") {
+                    expect(self.sut.view).to(beAKindOf(ProductDetailView.self))
                 }
             }
         }

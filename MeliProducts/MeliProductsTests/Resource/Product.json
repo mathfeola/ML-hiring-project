@@ -1,0 +1,162 @@
+{
+    "id": "MLU444997736",
+    "site_id": "MLU",
+    "title": "Guitarra Clásica / Criolla Memphis Con Funda",
+    "subtitle": null,
+    "seller_id": 125463047,
+    "category_id": "MLU3773",
+    "official_store_id": null,
+    "price": 85,
+    "base_price": 85,
+    "original_price": null,
+    "currency_id": "USD",
+    "initial_quantity": 625,
+    "available_quantity": 250,
+    "sold_quantity": 250,
+    "sale_terms": [],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2017-03-29T15:27:39.000Z",
+    "stop_time": "2037-05-14T13:12:47.000Z",
+    "condition": "new",
+    "permalink": "https://articulo.mercadolibre.com.uy/MLU-444997736-guitarra-clasica-criolla-memphis-con-funda-_JM",
+    "thumbnail": "http://mlu-s1-p.mlstatic.com/868481-MLU31241618317_062019-I.jpg",
+    "secure_thumbnail": "https://mlu-s1-p.mlstatic.com/868481-MLU31241618317_062019-I.jpg",
+    "pictures": [
+        {
+            "id": "868481-MLU31241618317_062019",
+            "url": "http://mlu-s1-p.mlstatic.com/868481-MLU31241618317_062019-O.jpg",
+            "secure_url": "https://mlu-s1-p.mlstatic.com/868481-MLU31241618317_062019-O.jpg",
+            "size": "202x250",
+            "max_size": "202x250",
+            "quality": ""
+        },
+        {
+            "id": "746731-MLU31241636099_062019",
+            "url": "http://mlu-s1-p.mlstatic.com/746731-MLU31241636099_062019-O.jpg",
+            "secure_url": "https://mlu-s1-p.mlstatic.com/746731-MLU31241636099_062019-O.jpg",
+            "size": "500x477",
+            "max_size": "720x687",
+            "quality": ""
+        },
+        {
+            "id": "637843-MLU31241612056_062019",
+            "url": "http://mlu-s1-p.mlstatic.com/637843-MLU31241612056_062019-O.jpg",
+            "secure_url": "https://mlu-s1-p.mlstatic.com/637843-MLU31241612056_062019-O.jpg",
+            "size": "479x500",
+            "max_size": "936x976",
+            "quality": ""
+        },
+        {
+            "id": "832925-MLU31241624634_062019",
+            "url": "http://mlu-s1-p.mlstatic.com/832925-MLU31241624634_062019-O.jpg",
+            "secure_url": "https://mlu-s1-p.mlstatic.com/832925-MLU31241624634_062019-O.jpg",
+            "size": "500x177",
+            "max_size": "937x332",
+            "quality": ""
+        }
+    ],
+    "video_id": null,
+    "descriptions": [
+        {
+            "id": "MLU444997736-1310589277"
+        }
+    ],
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+        "mode": "me2",
+        "methods": [],
+        "tags": [],
+        "dimensions": null,
+        "local_pick_up": true,
+        "free_shipping": false,
+        "logistic_type": "drop_off",
+        "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+        "city": {
+            "id": "TUxVQ0NFTjVjMTM",
+            "name": "Centro"
+        },
+        "state": {
+            "id": "UY-MO",
+            "name": "Montevideo"
+        },
+        "country": {
+            "id": "UY",
+            "name": "Uruguay"
+        },
+        "search_location": {
+            "city": {
+                "id": "TUxVQ0NFTjVjMTM",
+                "name": "Centro"
+            },
+            "state": {
+                "id": "TUxVUE1PTlo2MDIy",
+                "name": "Montevideo"
+            }
+        },
+        "latitude": -34.908615,
+        "longitude": -56.19715,
+        "id": 82876823
+    },
+    "seller_contact": null,
+    "location": {},
+    "geolocation": {
+        "latitude": -34.908615,
+        "longitude": -56.19715
+    },
+    "coverage_areas": [],
+    "attributes": [
+        {
+            "id": "COLOR",
+            "name": "Color",
+            "value_id": null,
+            "value_name": "Natural",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "IS_ELECTROACOUSTIC",
+            "name": "Es electroacústica",
+            "value_id": "242084",
+            "value_name": "No",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        },
+        {
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+        }
+    ],
+    "warnings": [],
+    "listing_source": "",
+    "variations": [],
+    "status": "active",
+    "sub_status": [],
+    "tags": [
+        "dragged_bids_and_visits",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment"
+    ],
+    "warranty": "6 meses",
+    "catalog_product_id": null,
+    "domain_id": "MLU-CLASSICAL_GUITARS",
+    "parent_item_id": "MLU443116533",
+    "differential_pricing": null,
+    "deal_ids": [],
+    "automatic_relist": false,
+    "date_created": "2017-03-29T15:27:39.000Z",
+    "last_updated": "2019-07-08T14:33:15.000Z",
+    "health": 0.85
+}

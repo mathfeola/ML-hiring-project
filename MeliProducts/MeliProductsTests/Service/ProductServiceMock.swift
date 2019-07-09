@@ -20,8 +20,19 @@ class ProductServiceMock: ProductServiceProtocol {
     
     func productDetail(productId: String, then completion: @escaping (Result<Product, NetworkingError>) -> Void) {
         
+        isRequestCalled = true
         
-        
+        if shouldReturnError {
+            
+            completion(.failure(.requestError(errorDescription: "Connection")))
+            
+        } else {
+            
+            let product: Product = Loader.fixture("Product")!
+            
+            completion(.success(product))
+            
+        }
     }
     
     func search(_ searchTerm: String, then completion: @escaping (Result<ProductList, NetworkingError>) -> Void) {

@@ -16,12 +16,16 @@ protocol Router: URLConvertible {
 
 extension Router {
     func asURL() throws -> URL {
-        let urlString = EnvironmentSetting().baseUrl + path
         
-        guard let urlRequest = URL(string: urlString) else {
-            fatalError("Aborting execution: Could not find baseUrl")
+        guard let encodedPath = path.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
+            fatalError("Aborting execution: Could not make baseUrl")
         }
         
+        let urlString = EnvironmentSetting().baseUrl + encodedPath
+        
+        guard let urlRequest = URL(string: urlString) else {
+            fatalError("Aborting execution: Could not make baseUrl")
+        }
         return urlRequest
     }
 }

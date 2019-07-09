@@ -16,6 +16,8 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+# code coverage reports
+xcov_report/*
 
 ## Other
 *.moved-aside

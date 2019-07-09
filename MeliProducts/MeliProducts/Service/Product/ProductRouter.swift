@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum ProductRouter: Router {
+enum ProductRouter: Router {
     
     case search(searchTerm: String)
     case detail(productId: String)
@@ -22,7 +22,7 @@ public enum ProductRouter: Router {
         }
     }
     
-    public var path: String {
+    var path: String {
         switch self {
         case .search(let searchTerm):
             return "/sites/MLU/search?q=\(searchTerm)"
@@ -30,19 +30,5 @@ public enum ProductRouter: Router {
         case .detail(let productId):
             return "/items/\(productId)"
         }
-    }
-    
-    public func asURL() throws -> URL {
-        
-        guard let encodedPath = path.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
-            fatalError("Aborting execution: Could not make baseUrl")
-        }
-        
-        let urlString = EnvironmentSetting().baseUrl + encodedPath
-        
-        guard let urlRequest = URL(string: urlString) else {
-            fatalError("Aborting execution: Could not make baseUrl")
-        }
-        return urlRequest
     }
 }

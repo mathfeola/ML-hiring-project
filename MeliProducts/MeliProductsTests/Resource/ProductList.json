@@ -1,0 +1,4757 @@
+{
+    "site_id": "MLU",
+    "query": "guitarra",
+    "paging": {
+        "total": 5623,
+        "offset": 0,
+        "limit": 50,
+        "primary_results": 1000
+    },
+    "results": [
+        {
+            "id": "MLU444997736",
+            "site_id": "MLU",
+            "title": "Guitarra Clásica / Criolla Memphis Con Funda",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 85,
+            "currency_id": "USD",
+            "available_quantity": 250,
+            "sold_quantity": 250,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-05-14T13:12:47.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-444997736-guitarra-clasica-criolla-memphis-con-funda-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/868481-MLU31241618317_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 168.77,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": null,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU456175905",
+            "site_id": "MLU",
+            "title": "Corta Pelo Gama Gcx 685",
+            "seller": {
+                "id": 213027195,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 2046,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-08-31T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-456175905-corta-pelo-gama-gcx-685-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/986730-MLU31245436563_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 113.67,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0xBWjk5YTE5",
+                "city_name": "La Blanqueada"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0xBWjk5YTE5",
+                    "name": "La Blanqueada"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Marca",
+                    "value_id": null,
+                    "value_name": "Farmashop",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1138849081739375,
+                    "id": "BRAND"
+                },
+                {
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU165637",
+            "official_store_id": 176,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU448842332",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Acustica Con Funda De Regalo",
+            "seller": {
+                "id": 127823052,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 1790,
+            "currency_id": "UYU",
+            "available_quantity": 50,
+            "sold_quantity": 250,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-09-23T13:33:11.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-448842332-guitarra-clasica-acustica-con-funda-de-regalo-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/634953-MLU26201178796_102017-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 99.44,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1577
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU445548387",
+            "site_id": "MLU",
+            "title": "Guitarra Eléctro Acústica Memphis 951",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 125,
+            "currency_id": "USD",
+            "available_quantity": 50,
+            "sold_quantity": 25,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-06-02T18:32:43.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-445548387-guitarra-electro-acustica-memphis-951-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/659449-MLU31241899004_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 248.19,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": null,
+                    "id": "ITEM_CONDITION"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU6302",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU446774951",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Criolla Yamaha C40 Calidad",
+            "seller": {
+                "id": 145264736,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 169,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 25,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-05-29T17:58:14.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-446774951-guitarra-clasica-criolla-yamaha-c40-calidad-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/838500-MLU31242269009_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 335.56,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": 20,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU449375636",
+            "site_id": "MLU",
+            "title": "Guitarra Clásica / Criolla Memphis 851 Con Funda",
+            "seller": {
+                "id": 145264736,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 85,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 200,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-10-20T18:31:17.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-449375636-guitarra-clasica-criolla-memphis-851-con-funda-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/894142-MLU31244951833_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 168.77,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Marca",
+                    "value_id": "905796",
+                    "value_name": "Memphis",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 3376461333454861,
+                    "id": "BRAND"
+                },
+                {
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                },
+                {
+                    "name": "Línea",
+                    "value_id": null,
+                    "value_name": "851",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 3376461333454861,
+                    "id": "LINE"
+                },
+                {
+                    "value_id": null,
+                    "value_name": "851nat",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 3376461333454861,
+                    "id": "MODEL",
+                    "name": "Modelo"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": 20,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU447335179",
+            "site_id": "MLU",
+            "title": "Interfaz Cable Guitarra Bajo Guitar Rig Link Usb  Emr",
+            "seller": {
+                "id": 238629708,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 930,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 25,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-06-30T23:15:41.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-447335179-interfaz-cable-guitarra-bajo-guitar-rig-link-usb-emr-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/946356-MLU31370115965_072019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 51.67,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0FHVWUwMzc3",
+                "city_name": "Aguada"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0FHVWUwMzc3",
+                    "name": "Aguada"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU158280",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU462105212",
+            "site_id": "MLU",
+            "title": "Guitarra Rosada Tamaño Chico Infantil Para Niños",
+            "seller": {
+                "id": 142276807,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 990,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-03-29T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-462105212-guitarra-rosada-tamano-chico-infantil-para-ninos-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/685262-MLU31246674710_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 55,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0xBQzU0NjU",
+                "city_name": "La Comercial"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0xBQzU0NjU",
+                    "name": "La Comercial"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU444107745",
+            "site_id": "MLU",
+            "title": "Guitarra Eléctro Acústica Memphis 964 Acero",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 165,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 50,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-05-20T13:44:16.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-444107745-guitarra-electro-acustica-memphis-964-acero-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/647939-MLU31240844074_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 327.62,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_name": "Otros",
+                    "source": null,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU6302",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "dragged_bids_and_visits",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU457231913",
+            "site_id": "MLU",
+            "title": "Guitarra - Reparación - Clásica/criolla/española",
+            "seller": {
+                "id": 307934355,
+                "power_seller_status": null,
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 1,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-10-08T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-457231913-guitarra-reparacion-clasicacriollaespanola-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/628186-MLU28368795681_102018-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 0.06,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BSQTYwOTJl",
+                "city_name": "Prado"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BSQTYwOTJl",
+                    "name": "Prado"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "",
+                    "attribute_group_name": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "good_quality_picture"
+            ]
+        },
+        {
+            "id": "MLU448814006",
+            "site_id": "MLU",
+            "title": "Guitarra Loog Mini Color Rosado De 3 Cuerdas",
+            "seller": {
+                "id": 198781738,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 3500,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 25,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-03-02T20:03:02.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-448814006-guitarra-loog-mini-color-rosado-de-3-cuerdas-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/729344-MLU31242813071_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 194.44,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BVTjJmMjkx",
+                "city_name": "Punta Carretas"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BVTjJmMjkx",
+                    "name": "Punta Carretas"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "2749215",
+                    "value_name": "Loog",
+                    "value_struct": null
+                },
+                {
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU177116",
+            "official_store_id": 121,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU445607045",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Para Niño 1/4 Varios Colores",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 79,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-04-12T15:14:01.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-445607045-guitarra-clasica-para-nino-14-varios-colores-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/995159-MLU31241945225_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 156.86,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_name": "Otros",
+                    "source": null,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU448541912",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Valencia Vc204 Varios Colores.",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 96,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-09-07T18:38:16.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-448541912-guitarra-clasica-valencia-vc204-varios-colores-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/722104-MLU31242805658_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 190.61,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_struct": null,
+                    "attribute_group_id": "",
+                    "attribute_group_name": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU463385703",
+            "site_id": "MLU",
+            "title": "Guitarra Loog Mini Color Rojo De 3 Cuerdas",
+            "seller": {
+                "id": 198781738,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 3500,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 50,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-05-17T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-463385703-guitarra-loog-mini-color-rojo-de-3-cuerdas-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/838535-MLU31246881695_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 194.44,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BVTjJmMjkx",
+                "city_name": "Punta Carretas"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BVTjJmMjkx",
+                    "name": "Punta Carretas"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 8492822877720875,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "2749215",
+                    "value_name": "Loog",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                },
+                {
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU177116",
+            "official_store_id": 121,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU454190722",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Yamaha C40 Black",
+            "seller": {
+                "id": 145264736,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 230,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 3,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-06-08T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-454190722-guitarra-clasica-yamaha-c40-black-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/759925-MLU31244638639_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 456.68,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": 20,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU444700487",
+            "site_id": "MLU",
+            "title": "Guitarra Elec/acustica Yamaha Ntx700 Nylon Sunburs",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 1160,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 1,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-03-15T16:04:17.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-444700487-guitarra-elecacustica-yamaha-ntx700-nylon-sunburs-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/813742-MLU31241462152_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 2303.24,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "6351",
+                    "value_name": "Yamaha",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875,
+                    "id": "BRAND",
+                    "name": "Marca"
+                },
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU6302",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU462104059",
+            "site_id": "MLU",
+            "title": "Guitarra Niño Ideal Para Empezar A Tocar",
+            "seller": {
+                "id": 142276807,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 990,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-03-29T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-462104059-guitarra-nino-ideal-para-empezar-a-tocar-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/688436-MLU31246663350_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 55,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0xBQzU0NjU",
+                "city_name": "La Comercial"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0xBQzU0NjU",
+                    "name": "La Comercial"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU449375681",
+            "site_id": "MLU",
+            "title": "Guitarra Electroacustica - Cuerdas De Acero - Memphis 964",
+            "seller": {
+                "id": 145264736,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 165,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-10-20T18:34:26.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-449375681-guitarra-electroacustica-cuerdas-de-acero-memphis-964-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/687824-MLU31243126749_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 327.62,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": 20,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU460889919",
+            "site_id": "MLU",
+            "title": "Guitarra Eléctrica Squier Contemporary Stratocaster Hh",
+            "seller": {
+                "id": 205521648,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 499,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 1,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-02-22T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-460889919-guitarra-electrica-squier-contemporary-stratocaster-hh-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/652579-MLU31246578028_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 990.79,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0FHVWUwMzc3",
+                "city_name": "Aguada"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0FHVWUwMzc3",
+                    "name": "Aguada"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU158284",
+            "official_store_id": 139,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU444460527",
+            "site_id": "MLU",
+            "title": "Guitarra Clásica Yamaha C40 - ",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 169,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 25,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-05-14T14:24:52.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-444460527-guitarra-clasica-yamaha-c40--_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/914268-MLU31241291481_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 335.56,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU452147032",
+            "site_id": "MLU",
+            "title": "Soporte Guitarra Pared",
+            "seller": {
+                "id": 448084,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 16,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 100,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-03-23T15:42:25.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-452147032-soporte-guitarra-pared-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/822598-MLU31244010073_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 31.77,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BPQzM5ZGRi",
+                "city_name": "Pocitos"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BPQzM5ZGRi",
+                    "name": "Pocitos"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU158306",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU462104149",
+            "site_id": "MLU",
+            "title": "Guitarra Chica Pero Verdadera Madera Para Niños",
+            "seller": {
+                "id": 142276807,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 990,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 3,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-03-29T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-462104149-guitarra-chica-pero-verdadera-madera-para-ninos-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/874480-MLU31370243314_072019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 55,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0xBQzU0NjU",
+                "city_name": "La Comercial"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0xBQzU0NjU",
+                    "name": "La Comercial"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU449408888",
+            "site_id": "MLU",
+            "title": "Guitarra Electro Acustica Sigma Travel De Viaje",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 510,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 1,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-10-22T16:35:34.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-449408888-guitarra-electro-acustica-sigma-travel-de-viaje-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/913380-MLU26250717112_102017-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 1012.63,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "16406",
+                    "value_name": "Sigma"
+                },
+                {
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                },
+                {
+                    "attribute_group_name": "Otros",
+                    "source": 1000427007642219,
+                    "id": "LINE",
+                    "name": "Línea",
+                    "value_id": "97836",
+                    "value_name": "Travel",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU6302",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU459760444",
+            "site_id": "MLU",
+            "title": "Guitarra Clásica Yamaha C40 ",
+            "seller": {
+                "id": 205521648,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 169,
+            "currency_id": "USD",
+            "available_quantity": 250,
+            "sold_quantity": 1,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-01-10T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-459760444-guitarra-clasica-yamaha-c40-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/789963-MLU31246241974_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 335.56,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0FHVWUwMzc3",
+                "city_name": "Aguada"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0FHVWUwMzc3",
+                    "name": "Aguada"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_name": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": ""
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": 139,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU447423937",
+            "site_id": "MLU",
+            "title": "Guitarra Electrica - Memphis Strato",
+            "seller": {
+                "id": 145264736,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 135,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-04-15T14:40:21.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-447423937-guitarra-electrica-memphis-strato-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/802299-MLU31242495474_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 268.05,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_id": "",
+                    "attribute_group_name": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU165641",
+            "official_store_id": 20,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU459206026",
+            "site_id": "MLU",
+            "title": "Guitarra Valencia Vc204 Varios Colores",
+            "seller": {
+                "id": 145264736,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 96,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-12-12T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-459206026-guitarra-valencia-vc204-varios-colores-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/759812-MLU29563828772_032019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 190.61,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": 20,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU450329565",
+            "site_id": "MLU",
+            "title": "Mi Primer Guitarra",
+            "seller": {
+                "id": 206381498,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 840,
+            "currency_id": "UYU",
+            "available_quantity": 50,
+            "sold_quantity": 1,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-03-22T21:27:37.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-450329565-mi-primer-guitarra-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/684221-MLU31243465780_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 46.67,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0xBWjk5YTE5",
+                "city_name": "La Blanqueada"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0xBWjk5YTE5",
+                    "name": "La Blanqueada"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": 140,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU463385520",
+            "site_id": "MLU",
+            "title": "Guitarra Acústica Loog Pro Color Negro De 3 Cuerdas",
+            "seller": {
+                "id": 198781738,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 5990,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 3,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-05-17T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-463385520-guitarra-acustica-loog-pro-color-negro-de-3-cuerdas-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/722017-MLU31370192973_072019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 332.78,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BVTjJmMjkx",
+                "city_name": "Punta Carretas"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BVTjJmMjkx",
+                    "name": "Punta Carretas"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "2749215",
+                    "value_name": "Loog",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875
+                },
+                {
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                },
+                {
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875,
+                    "id": "MODEL",
+                    "name": "Modelo",
+                    "value_id": "9515",
+                    "value_name": "Pro",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU177116",
+            "official_store_id": 121,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU455022437",
+            "site_id": "MLU",
+            "title": "Guitarra Madera Española Cuerdas De Metal Infantil  Ml 1034",
+            "seller": {
+                "id": 61721220,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 550,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-07-09T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-455022437-guitarra-madera-espanola-cuerdas-de-metal-infantil-ml-1034-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/871883-MLU31245055718_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 30.56,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "",
+                    "attribute_group_name": "",
+                    "source": 1
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU458046020",
+            "site_id": "MLU",
+            "title": "Guitarra Fender Electroacústica Cd60sce ",
+            "seller": {
+                "id": 205521648,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 449,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 2,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-11-03T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-458046020-guitarra-fender-electroacustica-cd60sce-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/642201-MLU28619393784_112018-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 891.51,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0FHVWUwMzc3",
+                "city_name": "Aguada"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0FHVWUwMzc3",
+                    "name": "Aguada"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "15168",
+                    "value_name": "Fender",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875,
+                    "id": "BRAND",
+                    "name": "Marca"
+                },
+                {
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 7154519725425610,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo"
+                },
+                {
+                    "id": "MODEL",
+                    "name": "Modelo",
+                    "value_id": "6383571",
+                    "value_name": "CD-60SCE",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1000427007642219
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU6302",
+            "official_store_id": 139,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "good_quality_picture",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU452072152",
+            "site_id": "MLU",
+            "title": "Guitarra Para Niños Azul O Roja Hape - Toy Store",
+            "seller": {
+                "id": 109202304,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 124,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 1,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-06-14T15:25:35.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-452072152-guitarra-para-ninos-azul-o-roja-hape-toy-store-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/941726-MLU31244056625_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 246.21,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BPQzM5ZGRi",
+                "city_name": "Pocitos"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BPQzM5ZGRi",
+                    "name": "Pocitos"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1572,
+                    "id": "ITEM_CONDITION"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU462840658",
+            "site_id": "MLU",
+            "title": "Guitarra Rosada  3/4 Ademad Con Su Estuche A Medida",
+            "seller": {
+                "id": 93423131,
+                "power_seller_status": null,
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 4100,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 2,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-04-23T04:00:00.000Z",
+            "condition": "not_specified",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-462840658-guitarra-rosada-34-ademad-con-su-estuche-a-medida-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/815403-MLU25731340639_072017-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 227.78,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0xBWjk5YTE5",
+                "city_name": "La Blanqueada"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0xBWjk5YTE5",
+                    "name": "La Blanqueada"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture"
+            ]
+        },
+        {
+            "id": "MLU461224199",
+            "site_id": "MLU",
+            "title": "Guitarra Loog Mini Color Amarillo De 3 Cuerdas",
+            "seller": {
+                "id": 198781738,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 3500,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-03-03T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-461224199-guitarra-loog-mini-color-amarillo-de-3-cuerdas-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/786152-MLU26082539860_092017-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 194.44,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BVTjJmMjkx",
+                "city_name": "Punta Carretas"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BVTjJmMjkx",
+                    "name": "Punta Carretas"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_name": "Loog",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "2749215"
+                },
+                {
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU177116",
+            "official_store_id": 121,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU462104083",
+            "site_id": "MLU",
+            "title": "Guitarra De Madera Para Niños Suena De Verdad",
+            "seller": {
+                "id": 142276807,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 990,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 1,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-03-29T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-462104083-guitarra-de-madera-para-ninos-suena-de-verdad-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/961879-MLU31370223272_072019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 55,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0xBQzU0NjU",
+                "city_name": "La Comercial"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0xBQzU0NjU",
+                    "name": "La Comercial"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1572
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "good_quality_picture"
+            ]
+        },
+        {
+            "id": "MLU452146896",
+            "site_id": "MLU",
+            "title": "Soporte Guitarra",
+            "seller": {
+                "id": 448084,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 15,
+            "currency_id": "USD",
+            "available_quantity": 50,
+            "sold_quantity": 200,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-03-23T15:41:50.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-452146896-soporte-guitarra-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/616831-MLU31244062043_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 29.78,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BPQzM5ZGRi",
+                "city_name": "Pocitos"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BPQzM5ZGRi",
+                    "name": "Pocitos"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU158306",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU463167591",
+            "site_id": "MLU",
+            "title": "Guitarra Star Para Bebes Y Niños Classic World",
+            "seller": {
+                "id": 206381498,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 47,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 0,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-05-08T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-463167591-guitarra-star-para-bebes-y-ninos-classic-world-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/783635-MLU30493270063_052019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 93.32,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0xBWjk5YTE5",
+                "city_name": "La Blanqueada"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0xBWjk5YTE5",
+                    "name": "La Blanqueada"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": 140,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU451336765",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Admira Adm0420 Paloma Fabricada En España",
+            "seller": {
+                "id": 145264736,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 199,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 3,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-02-08T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-451336765-guitarra-clasica-admira-adm0420-paloma-fabricada-en-espana-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/735855-MLU31243808769_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 395.13,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_id": "",
+                    "attribute_group_name": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU6302",
+            "official_store_id": 20,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU448541782",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Valencia Vc203 Mediana 3/4 Varios Colores",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 99,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 4,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-09-07T18:28:14.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-448541782-guitarra-clasica-valencia-vc203-mediana-34-varios-colores-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/671259-MLU31242880772_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 196.57,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "",
+                    "attribute_group_name": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU464127702",
+            "site_id": "MLU",
+            "title": "Guitarra Eléctrica Loog Pro Color Verde De 3 Cuerdas",
+            "seller": {
+                "id": 198781738,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 7590,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-06-13T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-464127702-guitarra-electrica-loog-pro-color-verde-de-3-cuerdas-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/602542-MLU31370279058_072019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 421.67,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BVTjJmMjkx",
+                "city_name": "Punta Carretas"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BVTjJmMjkx",
+                    "name": "Punta Carretas"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_name": "Loog",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "2749215"
+                },
+                {
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION"
+                },
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1000427007642219,
+                    "id": "MODEL",
+                    "name": "Modelo",
+                    "value_id": "9515",
+                    "value_name": "Pro",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU177116",
+            "official_store_id": 121,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU448541953",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Valencia Vc304 Natural O Sounburst",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 121,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 2,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-09-07T18:41:42.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-448541953-guitarra-clasica-valencia-vc304-natural-o-sounburst-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/733233-MLU31242813515_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 240.25,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU448814404",
+            "site_id": "MLU",
+            "title": "Guitarra Loog Mini Color Negro De 3 Cuerdas",
+            "seller": {
+                "id": 198781738,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 3500,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 50,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-03-02T20:03:14.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-448814404-guitarra-loog-mini-color-negro-de-3-cuerdas-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/619292-MLU26082641020_092017-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 194.44,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BVTjJmMjkx",
+                "city_name": "Punta Carretas"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BVTjJmMjkx",
+                    "name": "Punta Carretas"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "2749215",
+                    "value_name": "Loog",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875
+                },
+                {
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU177116",
+            "official_store_id": 121,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU444777061",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Pack Valencia 150 Standard Varios Colores",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 131,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-08-31T18:09:31.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-444777061-guitarra-clasica-pack-valencia-150-standard-varios-colores-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/893915-MLU31241498859_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 260.11,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU453879480",
+            "site_id": "MLU",
+            "title": "Guitarrra Electro Acústica Lag Tramontane Tl70dce Para Zurdo",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 410,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 2,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-05-25T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-453879480-guitarrra-electro-acustica-lag-tramontane-tl70dce-para-zurdo-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/989036-MLU27463461147_052018-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 814.08,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU6302",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU444103813",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Yamaha Cg102 Natural",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 395,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 0,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-02-23T15:21:44.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-444103813-guitarra-clasica-yamaha-cg102-natural-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/204511-MLU20561063112_012016-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 784.29,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU444844500",
+            "site_id": "MLU",
+            "title": "Guitarra Española Criolla Clásica Nueva - Todo Acá",
+            "seller": {
+                "id": 219279943,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 1899,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-02-16T17:40:33.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-444844500-guitarra-espanola-criolla-clasica-nueva-todo-aca-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/632484-MLU31241508681_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 105.5,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "",
+                    "attribute_group_name": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "good_quality_picture",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU448906704",
+            "site_id": "MLU",
+            "title": "Construcción,reparación,guitarras,bajos, Luthier Juan Espino",
+            "seller": {
+                "id": 18495555,
+                "power_seller_status": null,
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 700,
+            "currency_id": "UYU",
+            "available_quantity": 50,
+            "sold_quantity": 5,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-09-27T13:39:32.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-448906704-construccionreparacionguitarrasbajos-luthier-juan-espino-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/626185-MLU26107571130_102017-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 38.89,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFUjI3NDg",
+                "city_name": "Cerrito"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFUjI3NDg",
+                    "name": "Cerrito"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "attribute_group_name": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": ""
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU158280",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU451834973",
+            "site_id": "MLU",
+            "title": "Guitarra Artesanal Manuel Rodriguez / C7 Laminada / Española",
+            "seller": {
+                "id": 68964113,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 349,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 0,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-03-30T21:01:44.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-451834973-guitarra-artesanal-manuel-rodriguez-c7-laminada-espanola-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/404111-MLU20481690968_112015-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 692.96,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BBUjVkNGE4",
+                "city_name": "Parque Batlle"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BBUjVkNGE4",
+                    "name": "Parque Batlle"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU445596783",
+            "site_id": "MLU",
+            "title": "Funda Para Guitarra Criolla Acústica Fever",
+            "seller": {
+                "id": 156510781,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 10,
+            "currency_id": "USD",
+            "available_quantity": 1,
+            "sold_quantity": 150,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-05-06T15:11:27.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-445596783-funda-para-guitarra-criolla-acustica-fever-_JM",
+            "thumbnail": "http://mlu-s2-p.mlstatic.com/771837-MLU31241947977_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 19.86,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-TA",
+                "state_name": "Tacuarembó",
+                "city_id": "TUxVQ1RBQ2QxM2I4",
+                "city_name": "Tacuarembó"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-TA",
+                    "name": "Tacuarembó"
+                },
+                "city": {
+                    "id": "TUxVQ1RBQ2QxM2I4",
+                    "name": "Tacuarembó"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU158303",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail"
+            ]
+        },
+        {
+            "id": "MLU444698900",
+            "site_id": "MLU",
+            "title": "Guitarra Clasica Yamaha C70 Natural",
+            "seller": {
+                "id": 125463047,
+                "power_seller_status": "platinum",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 280,
+            "currency_id": "USD",
+            "available_quantity": 500,
+            "sold_quantity": 2,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2037-03-15T15:23:26.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-444698900-guitarra-clasica-yamaha-c70-natural-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/363511-MLU20561061179_012016-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 555.96,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ0NFTjVjMTM",
+                "city_name": "Centro"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ0NFTjVjMTM",
+                    "name": "Centro"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU3773",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLU461645376",
+            "site_id": "MLU",
+            "title": "Guitarra Loog Mini Color Verde De 3 Cuerdas",
+            "seller": {
+                "id": 198781738,
+                "power_seller_status": "silver",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 3500,
+            "currency_id": "UYU",
+            "available_quantity": 1,
+            "sold_quantity": 50,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-03-16T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.uy/MLU-461645376-guitarra-loog-mini-color-verde-de-3-cuerdas-_JM",
+            "thumbnail": "http://mlu-s1-p.mlstatic.com/945899-MLU31246772715_062019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 18,
+                "amount": 194.44,
+                "rate": 0,
+                "currency_id": "UYU"
+            },
+            "address": {
+                "state_id": "UY-MO",
+                "state_name": "Montevideo",
+                "city_id": "TUxVQ1BVTjJmMjkx",
+                "city_name": "Punta Carretas"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "custom",
+                "tags": [
+                    "me2_available"
+                ],
+                "logistic_type": "custom",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "UY",
+                    "name": "Uruguay"
+                },
+                "state": {
+                    "id": "UY-MO",
+                    "name": "Montevideo"
+                },
+                "city": {
+                    "id": "TUxVQ1BVTjJmMjkx",
+                    "name": "Punta Carretas"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_id": "2749215",
+                    "value_name": "Loog",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 8492822877720875,
+                    "id": "BRAND",
+                    "name": "Marca"
+                },
+                {
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLU177116",
+            "official_store_id": 121,
+            "catalog_product_id": null,
+            "tags": [
+                "dragged_bids_and_visits",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment"
+            ]
+        }
+    ],
+    "secondary_results": [],
+    "related_results": [],
+    "sort": {
+        "id": "relevance",
+        "name": "Más relevantes"
+    },
+    "available_sorts": [
+        {
+            "id": "price_asc",
+            "name": "Menor precio"
+        },
+        {
+            "id": "price_desc",
+            "name": "Mayor precio"
+        }
+    ],
+    "filters": [
+        {
+            "id": "category",
+            "name": "Categorías",
+            "type": "text",
+            "values": [
+                {
+                    "id": "MLU2987",
+                    "name": "Guitarras",
+                    "path_from_root": [
+                        {
+                            "id": "MLU1182",
+                            "name": "Instrumentos Musicales"
+                        },
+                        {
+                            "id": "MLU2987",
+                            "name": "Guitarras"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "available_filters": [
+        {
+            "id": "category",
+            "name": "Categorías",
+            "type": "text",
+            "values": [
+                {
+                    "id": "MLU4275",
+                    "name": "Eléctricas",
+                    "results": 1730
+                },
+                {
+                    "id": "MLU3773",
+                    "name": "Criollas",
+                    "results": 458
+                },
+                {
+                    "id": "MLU6302",
+                    "name": "Acústicas",
+                    "results": 839
+                },
+                {
+                    "id": "MLU9702",
+                    "name": "Accesorios",
+                    "results": 2422
+                },
+                {
+                    "id": "MLU2996",
+                    "name": "Otras",
+                    "results": 174
+                }
+            ]
+        },
+        {
+            "id": "official_store",
+            "name": "Tiendas oficiales",
+            "type": "text",
+            "values": [
+                {
+                    "id": "all",
+                    "name": "Todas las tiendas oficiales",
+                    "results": 366
+                },
+                {
+                    "id": "20",
+                    "name": "Palacio de la Musica",
+                    "results": 89
+                },
+                {
+                    "id": "139",
+                    "name": "Todomusica",
+                    "results": 47
+                },
+                {
+                    "id": "121",
+                    "name": "Loog Guitars",
+                    "results": 9
+                },
+                {
+                    "id": "140",
+                    "name": "Petit Baby",
+                    "results": 2
+                },
+                {
+                    "id": "520",
+                    "name": "Ebay",
+                    "results": 212
+                },
+                {
+                    "id": "330",
+                    "name": "Mosca",
+                    "results": 6
+                },
+                {
+                    "id": "176",
+                    "name": "Farmashop",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "state",
+            "name": "Ubicación",
+            "type": "text",
+            "values": [
+                {
+                    "id": "UY-MO",
+                    "name": "Montevideo",
+                    "results": 4618
+                },
+                {
+                    "id": "UY-CA",
+                    "name": "Canelones",
+                    "results": 278
+                },
+                {
+                    "id": "UY-SJ",
+                    "name": "San José",
+                    "results": 163
+                },
+                {
+                    "id": "UY-SO",
+                    "name": "Soriano",
+                    "results": 138
+                },
+                {
+                    "id": "UY-MA",
+                    "name": "Maldonado",
+                    "results": 90
+                },
+                {
+                    "id": "UY-CO",
+                    "name": "Colonia",
+                    "results": 66
+                },
+                {
+                    "id": "UY-TA",
+                    "name": "Tacuarembó",
+                    "results": 66
+                },
+                {
+                    "id": "UY-RV",
+                    "name": "Rivera",
+                    "results": 32
+                },
+                {
+                    "id": "UY-RO",
+                    "name": "Rocha",
+                    "results": 26
+                },
+                {
+                    "id": "UY-PA",
+                    "name": "Paysandú",
+                    "results": 23
+                },
+                {
+                    "id": "UY-SA",
+                    "name": "Salto",
+                    "results": 18
+                },
+                {
+                    "id": "UY-CL",
+                    "name": "Cerro Largo",
+                    "results": 17
+                },
+                {
+                    "id": "UY-LA",
+                    "name": "Lavalleja",
+                    "results": 17
+                },
+                {
+                    "id": "UY-FD",
+                    "name": "Florida",
+                    "results": 16
+                },
+                {
+                    "id": "UY-AR",
+                    "name": "Artigas",
+                    "results": 15
+                },
+                {
+                    "id": "UY-TT",
+                    "name": "Treinta y Tres",
+                    "results": 14
+                },
+                {
+                    "id": "UY-DU",
+                    "name": "Durazno",
+                    "results": 11
+                },
+                {
+                    "id": "UY-RN",
+                    "name": "Río Negro",
+                    "results": 11
+                },
+                {
+                    "id": "UY-FS",
+                    "name": "Flores",
+                    "results": 4
+                }
+            ]
+        },
+        {
+            "id": "price",
+            "name": "Precio",
+            "type": "range",
+            "values": [
+                {
+                    "id": "*-2000.0",
+                    "name": "Hasta $2.000",
+                    "results": 1521
+                },
+                {
+                    "id": "2000.0-9500.0",
+                    "name": "$2.000 a $9.500",
+                    "results": 2177
+                },
+                {
+                    "id": "9500.0-*",
+                    "name": "Más de $9.500",
+                    "results": 1925
+                }
+            ]
+        },
+        {
+            "id": "accepts_mercadopago",
+            "name": "Filtro por MercadoPago",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Con MercadoPago",
+                    "results": 5623
+                }
+            ]
+        },
+        {
+            "id": "installments",
+            "name": "Pago",
+            "type": "text",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "En cuotas",
+                    "results": 5611
+                }
+            ]
+        },
+        {
+            "id": "condition",
+            "name": "Condición",
+            "type": "text",
+            "values": [
+                {
+                    "id": "new",
+                    "name": "Nuevo",
+                    "results": 4163
+                },
+                {
+                    "id": "used",
+                    "name": "Usado",
+                    "results": 1394
+                }
+            ]
+        },
+        {
+            "id": "shipping",
+            "name": "Envío",
+            "type": "text",
+            "values": [
+                {
+                    "id": "mercadoenvios",
+                    "name": "Mercado Envíos",
+                    "results": 813
+                }
+            ]
+        },
+        {
+            "id": "power_seller",
+            "name": "Filtro por calidad de vendedores",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Mejores vendedores",
+                    "results": 3151
+                }
+            ]
+        },
+        {
+            "id": "since",
+            "name": "Filtro por fecha de comienzo",
+            "type": "text",
+            "values": [
+                {
+                    "id": "today",
+                    "name": "Publicados hoy",
+                    "results": 49
+                }
+            ]
+        },
+        {
+            "id": "until",
+            "name": "Filtro por fecha de finalización",
+            "type": "text",
+            "values": [
+                {
+                    "id": "today",
+                    "name": "Finalizan hoy",
+                    "results": 12
+                }
+            ]
+        },
+        {
+            "id": "has_video",
+            "name": "Filtro por publicaciones con video",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Publicaciones con video",
+                    "results": 271
+                }
+            ]
+        },
+        {
+            "id": "has_pictures",
+            "name": "Filtro por publicaciones con imágenes",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Con fotos",
+                    "results": 5605
+                }
+            ]
+        },
+        {
+            "id": "shipping_cost",
+            "name": "Costo de envío",
+            "type": "text",
+            "values": [
+                {
+                    "id": "free",
+                    "name": "Gratis",
+                    "results": 262
+                }
+            ]
+        }
+    ]
+}

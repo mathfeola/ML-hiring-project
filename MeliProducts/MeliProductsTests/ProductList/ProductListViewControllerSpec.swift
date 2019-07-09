@@ -50,10 +50,6 @@ class ProductListViewControllerSpec: QuickSpec {
                     self.sut = ProductListViewController(service: ProductServiceMock(shouldReturnError: true))
                     _ = self.sut.view
                 }
-                it("should have a empty view") {
-                    expect(self.sut.view).to(beAKindOf(EmptyListView.self))
-                    
-                }
                 
                 it("should have a empty view") {
                     self.sut.didSelectedProduct("")
