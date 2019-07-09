@@ -10,16 +10,22 @@ import Alamofire
 
 class ApiClient {
     
-    static let sharedApliClient = ApiClient()
-    
+    static let sharedApiClient = ApiClient()
+
     public func execute(router: Router,
-                        completion: @escaping (Data) -> Void) {
+                        completion: @escaping (Result<Data>) -> Void) {
         
-        Alamofire.request(router, method: router.method).responseJSON { response in
+        Alamofire.request(router, method: router.method as HTTPMethod).responseJSON { response in
             
             guard let data = response.data else { return }
             
-            completion(data)
+            switch response.result {
+                
+            case .success:
+                completion(.success(data))
+            case .failure(let error):
+                    completion(.failure(error))
+            }
         }
     }
 }

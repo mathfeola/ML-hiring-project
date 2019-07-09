@@ -6,40 +6,59 @@
 //  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
-import Alamofire
+import Foundation
+
+enum NetworkingError: Error {
+    case requestError(errorDescription: String)
+    case parsingError
+}
 
 class ProductService: ProductServiceProtocol {
     
-    func search(_ searchTerm: String, then completion: @escaping (ProductList) -> Void) {
+    func search(_ searchTerm: String, then completion: @escaping (Result<ProductList, NetworkingError>) -> Void) {
         
         let router = ProductRouter.search(searchTerm: searchTerm)
         
-        ApiClient.sharedApliClient.execute(router: router) { data in
+        ApiClient.sharedApiClient.execute(router: router) { response in
             
-            do {
-                let list = try JSONDecoder().decode(ProductList.self, from: data)
+            switch response {
+            case .success(let data):
                 
-                completion(list)
+                do {
+                    let list = try JSONDecoder().decode(ProductList.self, from: data)
+                    
+                    completion(.success(list))
+                    
+                } catch {
+                    completion(.failure(.parsingError))
+                }
                 
-            } catch let error {
-                print(error.localizedDescription)
+            case .failure(let requestError):
+                completion(.failure(NetworkingError.requestError(errorDescription: requestError.localizedDescription)))
             }
         }
     }
     
-    func productDetail(productId: String, then completion: @escaping (Product) -> Void) {
+    func productDetail(productId: String, then completion: @escaping (Result<Product, NetworkingError>) -> Void) {
         
         let router = ProductRouter.detail(productId: productId)
         
-        ApiClient.sharedApliClient.execute(router: router) { data in
+        ApiClient.sharedApiClient.execute(router: router) { response in
             
-            do {
-                let product = try JSONDecoder().decode(Product.self, from: data)
+            switch response {
+            case .success(let data):
                 
-                completion(product)
+                do {
+                    let list = try JSONDecoder().decode(Product.self, from: data)
+                    
+                    completion(.success(list))
+                    
+                } catch {
+                    completion(.failure(.parsingError))
+                }
                 
-            } catch let error {
-                print(error.localizedDescription)
+            case .failure(let requestError):
+                completion(.failure(NetworkingError.requestError(errorDescription: requestError.localizedDescription)))
             }
         }
     }

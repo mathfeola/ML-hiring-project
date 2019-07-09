@@ -7,9 +7,8 @@
 //
 
 import Foundation
-import Alamofire
 
 protocol ProductServiceProtocol {
-    func productDetail(productId: String, then completion: @escaping (Product) -> Void)
-    func search(_ searchTerm: String, then completion: @escaping (ProductList) -> Void)
+    func productDetail(productId: String, then completion: @escaping (Result<Product, NetworkingError>) -> Void)
+    func search(_ searchTerm: String, then completion: @escaping (Result<ProductList, NetworkingError>) -> Void)
 }

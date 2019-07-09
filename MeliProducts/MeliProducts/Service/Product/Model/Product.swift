@@ -13,7 +13,8 @@ class Product: Codable {
     var title: String
     var price: Double
     var pictures: [Picture]?
-    var thumbnail: URL
+    var thumbnail: String?
+    var permalink: String
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -21,6 +22,7 @@ class Product: Codable {
         case price
         case pictures
         case thumbnail
+        case permalink
     }
     
     required init(from decoder: Decoder) throws {
@@ -30,6 +32,7 @@ class Product: Codable {
         self.pictures = try container.decodeIfPresent([Picture].self, forKey: .pictures)
         self.title = try container.decode(String.self, forKey: .title)
         self.price = try container.decode(Double.self, forKey: .price)
-        self.thumbnail = try container.decode(URL.self, forKey: .thumbnail)
+        self.thumbnail = try container.decodeIfPresent(String.self, forKey: .thumbnail)
+        self.permalink = try container.decode(String.self, forKey: .permalink)
     }
 }

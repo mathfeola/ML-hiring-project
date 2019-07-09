@@ -6,10 +6,22 @@
 //  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
-import Foundation
 import Alamofire
 
 protocol Router: URLConvertible {
-    var method: HTTPMethod { get }
+    typealias Method = HTTPMethod
+    var method: Method { get }
     var path: String { get }
+}
+
+extension Router {
+    func asURL() throws -> URL {
+        let urlString = EnvironmentSetting().baseUrl + path
+        
+        guard let urlRequest = URL(string: urlString) else {
+            fatalError("Aborting execution: Could not find baseUrl")
+        }
+        
+        return urlRequest
+    }
 }

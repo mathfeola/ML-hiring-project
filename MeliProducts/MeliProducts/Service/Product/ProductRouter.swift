@@ -7,14 +7,13 @@
 //
 
 import Foundation
-import Alamofire
 
 public enum ProductRouter: Router {
     
     case search(searchTerm: String)
     case detail(productId: String)
     
-    var method: HTTPMethod {
+    var method: ProductRouter.Method {
         switch self {
         case .search:
             return .post
@@ -34,12 +33,16 @@ public enum ProductRouter: Router {
     }
     
     public func asURL() throws -> URL {
-        let urlString = EnvironmentSetting().baseUrl + path
         
-        guard let urlRequest = URL(string: urlString) else {
-            fatalError("Aborting execution: Could not find baseUrl EnvironmentSetting")
+        guard let encodedPath = path.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
+            fatalError("Aborting execution: Could not make baseUrl")
         }
         
+        let urlString = EnvironmentSetting().baseUrl + encodedPath
+        
+        guard let urlRequest = URL(string: urlString) else {
+            fatalError("Aborting execution: Could not make baseUrl")
+        }
         return urlRequest
     }
 }

@@ -25,23 +25,18 @@ class ProductListViewController: UIViewController {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        service = ProductService()
-        productListView = ProductListView(frame: UIScreen.main.bounds)
-        super.init(coder: aDecoder)
+        fatalError("init(coder:) has not been implemented")
     }
     
     override func loadView() {
-        self.view = productListView
+        self.view = EmptyListView(.initialState, frame: UIScreen.main.bounds)
         productListView.delegate = self
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        service.search("TV") { productList in
-            self.productListView.viewModel = ProductListViewModel(list: productList)
-        }
         setBarStyle()
+        didSearchedProduct("TV")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -57,6 +52,7 @@ class ProductListViewController: UIViewController {
         if let navBar = navigationController?.navigationBar {
             navBar.isTranslucent = false
             navBar.barTintColor = UIColor.AppColors.mainYellow
+            navBar.tintColor = UIColor.AppColors.mainBlue
             navigationItem.titleView = productListView.searchBar
         }
     }
@@ -65,14 +61,44 @@ class ProductListViewController: UIViewController {
 extension ProductListViewController: ProductListDelegate {
     
     func didSelectedProduct(_ productId: String) {
-        service.productDetail(productId: productId) { [weak self] product in
-            self?.delegate?.didSelectProduct(product)
+        
+        self.showLoading()
+        
+        service.productDetail(productId: productId) { [weak self] response in
+            
+            switch response {
+            case .success(let product):
+                self?.delegate?.didSelectProduct(product)
+                self?.hideLoading()
+            case .failure:
+                break
+                
+            }
         }
     }
     
     func didSearchedProduct(_ searchTerm: String) {
-        service.search(searchTerm) { productList in
-            self.productListView.viewModel = ProductListViewModel(list: productList)
+        
+        self.showLoading()
+        
+        service.search(searchTerm) { response in
+            
+            switch response {
+            case .success(let productList):
+                
+                if productList.results.isEmpty {
+                    self.view = EmptyListView(.noProductsFound, frame: UIScreen.main.bounds)
+                    self.hideLoading()
+                } else {
+                    self.productListView.viewModel = ProductListViewModel(list: productList)
+                    self.view = self.productListView
+                    self.hideLoading()
+                }
+                
+            case .failure:
+                self.view = EmptyListView(.networkingError, frame: UIScreen.main.bounds)
+                self.hideLoading()
+            }
         }
     }
 }

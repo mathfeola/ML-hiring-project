@@ -23,7 +23,6 @@ public extension ViewCodable {
         configure()
         buildHierarchy()
         buildConstraints()
-        render()
     }
     
     func render() {}
