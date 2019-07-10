@@ -23,8 +23,6 @@ bundle exec pod install
 
 ### 👨🏻‍💻 Gerando code coverage
 
-Edit your `Cartfile` and specify the dependency:
-
 ```ruby
 bundle exec fastlane test
 ```
