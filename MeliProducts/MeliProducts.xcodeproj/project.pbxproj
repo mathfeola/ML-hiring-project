@@ -127,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B22D9CF23E9E87500CE8266 /* BaseExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFE9248422D41E2100611AF5 /* LoadingView+UIViewController.swift */,
+			);
+			path = BaseExtensions;
+			sourceTree = "<group>";
+		};
 		44F78759D1315A5D8C3FBFC8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,7 +230,6 @@
 		EF9CC82A22C8825D0012D810 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				EFA4859222C97A4F00267804 /* Product */,
 				EF9CC82D22C883FF0012D810 /* ApiClient.swift */,
 				EF9CC83322C88D7A0012D810 /* Router.swift */,
 				EF28CC1C22C8A1B200BBBCBA /* EnvironmentSetting.swift */,
@@ -230,7 +237,7 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		EFA4859222C97A4F00267804 /* Product */ = {
+		EFA4859222C97A4F00267804 /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				EF9CC83722C88DA40012D810 /* ProductService.swift */,
@@ -238,7 +245,7 @@
 				EF39BFCC22C8D1D400BE9F2D /* ProductServiceProtocol.swift */,
 				EF28CC1F22C8AE2200BBBCBA /* Model */,
 			);
-			path = Product;
+			path = Service;
 			sourceTree = "<group>";
 		};
 		EFAF39B422C84C8800D0DC52 = {
@@ -264,12 +271,13 @@
 		EFAF39BF22C84C8800D0DC52 /* MeliProducts */ = {
 			isa = PBXGroup;
 			children = (
-				EFD9E8CE22CC13900065DF12 /* View */,
-				EF5A0D5222CADAA2004BF9E3 /* Coordinator */,
 				EFAF39E022C84CF300D0DC52 /* App */,
-				EF9CC82A22C8825D0012D810 /* Service */,
+				EF5A0D5222CADAA2004BF9E3 /* Coordinator */,
 				EFAF39E122C84CFD00D0DC52 /* ProductList */,
 				EFAF39E222C84D0400D0DC52 /* ProductDetail */,
+				0B22D9CF23E9E87500CE8266 /* BaseExtensions */,
+				EFD9E8CE22CC13900065DF12 /* View */,
+				EF9CC82A22C8825D0012D810 /* Service */,
 			);
 			path = MeliProducts;
 			sourceTree = "<group>";
@@ -301,6 +309,7 @@
 		EFAF39E122C84CFD00D0DC52 /* ProductList */ = {
 			isa = PBXGroup;
 			children = (
+				EFA4859222C97A4F00267804 /* Service */,
 				EFAF39E322C84D0F00D0DC52 /* Controllers */,
 				EFAF39E522C84D3000D0DC52 /* ViewModel */,
 				EFAF39E422C84D1600D0DC52 /* View */,
@@ -333,8 +342,6 @@
 				EFA4859A22C99F7100267804 /* ProductCellView.swift */,
 				EFA485A222C9AC2F00267804 /* ProductListAdapter.swift */,
 				EFB5C2D022D3BF51009183A5 /* EmptyListView.swift */,
-				EFE9248222D41D9000611AF5 /* LoadingView.swift */,
-				EFE9248422D41E2100611AF5 /* LoadingView+UIViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +357,7 @@
 		EFD9E8CE22CC13900065DF12 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EFE9248222D41D9000611AF5 /* LoadingView.swift */,
 				EFD9E8D122CC14020065DF12 /* ViewCodable.swift */,
 				EFD9E8CC22CC11650065DF12 /* UIColor+AppColors.swift */,
 			);
