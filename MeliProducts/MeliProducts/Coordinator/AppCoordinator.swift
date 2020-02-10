@@ -22,7 +22,7 @@ class AppCoordinator: Coordinator {
     func start() {
         let initialController = ProductListViewController()
         initialController.delegate = self
-        rootViewController.present(initialController, animated: false)
+        rootViewController.pushViewController(initialController, animated: false)
         window.makeKeyAndVisible()
     }
 }
