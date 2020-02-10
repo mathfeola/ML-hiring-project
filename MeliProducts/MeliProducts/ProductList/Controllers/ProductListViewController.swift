@@ -16,7 +16,7 @@ class ProductListViewController: UIViewController {
     
     private let service: ProductServiceProtocol
     private var productListView: ProductListView
-    var delegate: ProductListViewControllerDelegate?
+    weak var delegate: ProductListViewControllerDelegate?
     
     init(service: ProductServiceProtocol = ProductService()) {
         self.service = service

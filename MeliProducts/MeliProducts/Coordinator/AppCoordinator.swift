@@ -10,8 +10,8 @@ import UIKit
 
 class AppCoordinator: Coordinator {
     
-    let window: UIWindow
-    let rootViewController: UINavigationController
+    var window: UIWindow
+    var rootViewController: UINavigationController
     
     init(window: UIWindow) {
         self.window = window
@@ -22,7 +22,7 @@ class AppCoordinator: Coordinator {
     func start() {
         let initialController = ProductListViewController()
         initialController.delegate = self
-        rootViewController.pushViewController(initialController, animated: false)
+        rootViewController.present(initialController, animated: false)
         window.makeKeyAndVisible()
     }
 }
