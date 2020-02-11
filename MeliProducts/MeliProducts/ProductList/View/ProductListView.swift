@@ -13,7 +13,7 @@ protocol ProductListDelegate: class {
     func didSearchedProduct(_ searchTerm: String)
 }
 
-class ProductListView: UIView {
+final class ProductListView: UIView {
     
     private let contentView: UIView
     private let tableView: UITableView

@@ -1,14 +1,10 @@
 //
-//  EmptyListView.swift
-//  MeliProducts
-//
 //  Created by matheus.feola on 30/06/19.
-//  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
 import UIKit
 
-class EmptyListView: UIView {
+final class EmptyListView: UIView {
     
     enum EmptyListReason: String {
         case networkingError = "Houve um problema"

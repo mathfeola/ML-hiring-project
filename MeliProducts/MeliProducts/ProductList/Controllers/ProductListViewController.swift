@@ -1,9 +1,5 @@
 //
-//  ProductListViewController.swift
-//  MeliProducts
-//
 //  Created by matheus.feola on 29/06/19.
-//  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
 import UIKit
@@ -12,11 +8,11 @@ protocol ProductListViewControllerDelegate: class {
     func didSelectProduct(_ product: Product)
 }
 
-class ProductListViewController: UIViewController {
+final class ProductListViewController: UIViewController {
     
     private let service: ProductServiceProtocol
     private var productListView: ProductListView
-    var delegate: ProductListViewControllerDelegate?
+    weak var delegate: ProductListViewControllerDelegate?
     
     init(service: ProductServiceProtocol = ProductService()) {
         self.service = service

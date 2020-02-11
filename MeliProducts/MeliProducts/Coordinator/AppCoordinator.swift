@@ -1,17 +1,13 @@
 //
-//  AppCoordinator.swift
-//  MeliProducts
-//
 //  Created by matheus.feola on 01/07/19.
-//  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
 import UIKit
 
-class AppCoordinator: Coordinator {
+final class AppCoordinator: Coordinator {
     
-    let window: UIWindow
-    let rootViewController: UINavigationController
+    var window: UIWindow
+    var rootViewController: UINavigationController
     
     init(window: UIWindow) {
         self.window = window

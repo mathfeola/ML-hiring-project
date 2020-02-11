@@ -1,9 +1,5 @@
 //
-//  UIColor+AppColors.swift
-//  MeliProducts
-//
 //  Created by matheus.feola on 02/07/19.
-//  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
 import UIKit

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Product: Codable {
+struct Product: Codable {
     var id: String
     var title: String
     var price: Double
@@ -25,9 +25,8 @@ class Product: Codable {
         case permalink
     }
     
-    required init(from decoder: Decoder) throws {
+     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
         self.id = try container.decode(String.self, forKey: .id)
         self.pictures = try container.decodeIfPresent([Picture].self, forKey: .pictures)
         self.title = try container.decode(String.self, forKey: .title)
