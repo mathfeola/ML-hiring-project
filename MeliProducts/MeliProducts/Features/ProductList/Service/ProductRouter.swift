@@ -6,6 +6,7 @@ import Foundation
 
 enum ProductRouter: Router {
     
+    
     case search(searchTerm: String)
     case detail(productId: String)
     

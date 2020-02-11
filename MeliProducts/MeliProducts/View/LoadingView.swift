@@ -3,14 +3,14 @@
 //
 
 import Foundation
-import UIKit
+import SnapKit
 
 protocol Loadable {
     var activityIndicatorView: LoadingView { get }
 }
 
 final class LoadingView: UIView, ViewCodable {
-
+    
     static let viewInstance: LoadingView = LoadingView()
     
     var indicator: UIActivityIndicatorView = UIActivityIndicatorView()

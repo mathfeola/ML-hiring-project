@@ -2,7 +2,7 @@
 //  Created by matheus.feola on 30/06/19.
 //
 
-import UIKit
+import Foundation
 
 public protocol ViewCodable {
     

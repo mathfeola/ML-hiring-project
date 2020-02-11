@@ -159,6 +159,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE2AD35B23F339090015B3A7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF39E122C84CFD00D0DC52 /* ProductList */,
+				EFAF39E222C84D0400D0DC52 /* ProductDetail */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		EF28CC1F22C8AE2200BBBCBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,8 +283,7 @@
 				EFAF39E022C84CF300D0DC52 /* App */,
 				EF5A0D5222CADAA2004BF9E3 /* Coordinator */,
 				EF9CC82A22C8825D0012D810 /* Service */,
-				EFAF39E122C84CFD00D0DC52 /* ProductList */,
-				EFAF39E222C84D0400D0DC52 /* ProductDetail */,
+				EE2AD35B23F339090015B3A7 /* Features */,
 				0B22D9CF23E9E87500CE8266 /* BaseExtensions */,
 				EFD9E8CE22CC13900065DF12 /* View */,
 			);

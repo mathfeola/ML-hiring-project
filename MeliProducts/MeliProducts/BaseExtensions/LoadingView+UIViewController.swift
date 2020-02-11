@@ -2,7 +2,7 @@
 //  Created by matheus.feola on 30/06/19.
 //
 
-import UIKit
+import SnapKit
 
 extension UIViewController: Loadable {
     
@@ -12,7 +12,6 @@ extension UIViewController: Loadable {
     
     func showLoading() {
         self.view.addSubview(activityIndicatorView)
-        
         self.activityIndicatorView.snp.makeConstraints { (make) in
             make.top.equalToSuperview()
             make.bottom.equalToSuperview()
