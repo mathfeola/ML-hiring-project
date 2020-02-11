@@ -6,10 +6,32 @@ import UIKit
 
 final class EmptyListView: UIView {
     
-    enum EmptyListReason: String {
-        case networkingError = "Houve um problema"
-        case noProductsFound = "Nenhum produto encontrado"
-        case initialState = ""
+    enum EmptyListState {
+        case networkingError
+        case noProductsFound
+        case initialState
+        
+        func getErrorMessage() -> (title: String, subtitle: String) {
+            switch self {
+            case .initialState:
+                return (title: "Busque algo novo para você!", subtitle: "")
+            case .networkingError:
+                return (title: "Houve um problema", subtitle: "Erro de conexão")
+            case .noProductsFound:
+                return (title: "Nenhum produto encontrado", subtitle: "Tente uma nova busca =D")
+            }
+        }
+        
+        func getEmptyListPlaceholderImage() -> UIImage {
+            switch self {
+            case .initialState:
+                return UIImage(named: "initialBackground") ?? UIImage()
+            case .networkingError:
+                return UIImage()
+            case .noProductsFound:
+                return UIImage(named: "emptySearch") ?? UIImage()
+            }
+        }
     }
     
     let title: UILabel
@@ -17,7 +39,7 @@ final class EmptyListView: UIView {
     let subtitle: UILabel
     let backgroundImage: UIImageView
     
-    init(_ reason: EmptyListReason, frame: CGRect) {
+    init(_ reason: EmptyListState, frame: CGRect) {
         title = UILabel()
         emptySearchIcon = UIImageView()
         subtitle = UILabel()
@@ -31,22 +53,16 @@ final class EmptyListView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func setupEmptyViewState(_ reason: EmptyListReason) {
+    private func setupEmptyViewState(_ reason: EmptyListState) {
+        
+        title.text = reason.getErrorMessage().title
+        subtitle.text = reason.getErrorMessage().subtitle
+        backgroundImage.image = reason.getEmptyListPlaceholderImage()
         
         switch reason {
-        case .initialState:
-            title.text = "Busque algo novo para você!"
-            subtitle.text = ""
-            backgroundImage.image = UIImage(named: "initialBackground")
+        case .initialState, .noProductsFound:
+            return
         case .networkingError:
-            title.text = EmptyListReason.networkingError.rawValue
-            subtitle.text = "Erro de conexão"
-            emptySearchIcon.image = UIImage(named: "emptySearch")
-            backgroundImage.isHidden = true
-        case .noProductsFound:
-            title.text = EmptyListReason.noProductsFound.rawValue
-            subtitle.text = "Tente uma nova busca =D"
-            emptySearchIcon.image = UIImage(named: "emptySearch")
             backgroundImage.isHidden = true
         }
     }

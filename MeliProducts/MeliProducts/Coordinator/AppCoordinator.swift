@@ -9,9 +9,9 @@ final class AppCoordinator: Coordinator {
     var window: UIWindow
     var rootViewController: UINavigationController
     
-    init(window: UIWindow) {
+    init(window: UIWindow, rootViewController: UINavigationController = UINavigationController()) {
         self.window = window
-        rootViewController = UINavigationController()
+        self.rootViewController = rootViewController
         window.rootViewController = rootViewController
     }
     

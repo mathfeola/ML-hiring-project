@@ -11,7 +11,7 @@ protocol Router: URLConvertible {
 }
 
 extension Router {
-    func asURL() throws -> URL {
+    private func asURL() throws -> URL {
         
         guard let encodedPath = path.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
             fatalError("Aborting execution: Could not make baseUrl")

@@ -4,11 +4,11 @@
 
 import Alamofire
 
-class ApiClient {
+final class ApiClient {
     
     static let sharedApiClient = ApiClient()
 
-    public func execute(router: Router,
+    func execute(router: Router,
                         completion: @escaping (Result<Data>) -> Void) {
         
         Alamofire.request(router, method: router.method as HTTPMethod).responseJSON { response in

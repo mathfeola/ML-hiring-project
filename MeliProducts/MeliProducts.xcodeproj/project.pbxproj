@@ -274,12 +274,10 @@
 				EFAF39E022C84CF300D0DC52 /* App */,
 				EF5A0D5222CADAA2004BF9E3 /* Coordinator */,
 				EF9CC82A22C8825D0012D810 /* Service */,
-				EFD9E8CE22CC13900065DF12 /* View */,
 				EFAF39E122C84CFD00D0DC52 /* ProductList */,
 				EFAF39E222C84D0400D0DC52 /* ProductDetail */,
 				0B22D9CF23E9E87500CE8266 /* BaseExtensions */,
 				EFD9E8CE22CC13900065DF12 /* View */,
-				EF9CC82A22C8825D0012D810 /* Service */,
 			);
 			path = MeliProducts;
 			sourceTree = "<group>";
@@ -287,7 +285,7 @@
 		EFAF39D422C84C8A00D0DC52 /* MeliProductsTests */ = {
 			isa = PBXGroup;
 			children = (
-				EFE9248A22D45B6B00611AF5 /* Resource */,
+				EFE9248A22D45B6B00611AF5 /* TestResource */,
 				EF2AF68A22D11CEA0071B00F /* ProductDetail */,
 				EF2AF68622D11C040071B00F /* ProductList */,
 				EF39BFC922C8D08A00BE9F2D /* Service */,
@@ -374,14 +372,14 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		EFE9248A22D45B6B00611AF5 /* Resource */ = {
+		EFE9248A22D45B6B00611AF5 /* TestResource */ = {
 			isa = PBXGroup;
 			children = (
 				EFE9248622D4579600611AF5 /* TvSearch.json */,
 				EF1C250422D4E61E00A43FEF /* Product.json */,
 				EF1C250822D4EA7600A43FEF /* ProductList.json */,
 			);
-			path = Resource;
+			path = TestResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
