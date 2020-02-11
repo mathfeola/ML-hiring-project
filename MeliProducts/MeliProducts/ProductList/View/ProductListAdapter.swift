@@ -1,14 +1,10 @@
 //
-//  ProductListAdapter.swift
-//  MeliProducts
-//
 //  Created by matheus.feola on 30/06/19.
-//  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
 import UIKit
 
-class ProductListAdapter: NSObject, UITableViewDataSource, UITableViewDelegate {
+final class ProductListAdapter: NSObject, UITableViewDataSource, UITableViewDelegate {
     
     private let tableView: UITableView
     var list: [Product]

@@ -1,9 +1,5 @@
 //
-//  ProductDetailView.swift
-//  MeliProducts
-//
 //  Created by matheus.feola on 30/06/19.
-//  Copyright © 2019 matheus.feola. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +10,7 @@ protocol ProductDetailViewDelegate: class {
     func didPressBuyButton()
 }
 
-class ProductDetailView: UIView {
+final class ProductDetailView: UIView {
     private let contentView: UIScrollView
     private let image: UIImageView
     private let title: UILabel
