@@ -9,7 +9,7 @@ enum NetworkingError: Error {
     case parsingError
 }
 
-class ProductService: ProductServiceProtocol {
+struct ProductService: ProductServiceProtocol {
     
     func search(_ searchTerm: String, then completion: @escaping (Result<ProductList, NetworkingError>) -> Void) {
         

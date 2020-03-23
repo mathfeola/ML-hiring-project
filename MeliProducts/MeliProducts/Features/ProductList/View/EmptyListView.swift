@@ -77,7 +77,6 @@ extension EmptyListView: ViewCodable {
     }
     
     func buildConstraints() {
-        
         backgroundImage.snp.makeConstraints { background in
             background.top.equalToSuperview()
             background.left.equalToSuperview()
